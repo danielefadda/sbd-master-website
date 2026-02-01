@@ -1,0 +1,123 @@
+# Struttura dei corsi per l'anno accademico 2024-2025
+
+- title: "Alignment"
+  credits: 5
+  hours: 60
+  area: "Big Data Technology"
+  instructors:
+    - "Roberto Pellungrini"
+    - "Giuseppe Prencipe"
+    - "Anna Monreale"
+  description: "The module has the aim to align the students' competences in computer science and in basic analytics, especially in data bases, and Python programming for data science."
+  tools: ["SQL", "Microsoft SQL Server", "Python", "Numpy", "Pandas"]
+
+- title: "Artificial Intelligence Methods For Text Analysis And Web Mining"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  instructors:
+    - "Franco Maria Nardini"
+    - "Salvatore Trani"
+  description: "This module presents artificial intelligence techniques aimed at defining analytics on text and data from the Web, covering text analytics, learning to rank, and web mining."
+  tools: ["NLTK", "SpaCy", "Scikit-learn", "Huggingface Transformers", "ElasticSearch"]
+
+- title: "Big Data Ethics"
+  credits: 2
+  hours: 24
+  area: "Big Data Ethics"
+  instructors:
+    - "Giovanni Comandè"
+    - "Salvatore Ruggieri"
+    - "Anna Monreale"
+  description: "Introduces ethical and legal notions of privacy, anonymity, and discrimination, presenting technologies for privacy-by-design and auditing of predictive models."
+  tools: ["pandas", "fairlearn", "shap", "lime"]
+
+- title: "Big Data For Society"
+  credits: 2
+  hours: 24
+  area: "Big Data for Social Good"
+  instructors:
+    - "Riccardo Guidotti"
+    - "Anna Monreale"
+  description: "Case studies and real applications showing the use of Big Data analytics and Social Mining within the SoBigData.eu laboratory framework."
+
+- title: "Big Data Sources, Crowdsourcing, Crowdsensing"
+  credits: 2
+  hours: 24
+  area: "Big Data Sensing & Procurement"
+  instructors:
+    - "Tiziano Fagni"
+  description: "Focuses on data ingestion, crawling, and scraping methodologies from social media and the web, including crowdsourcing systems."
+  tools: ["Selenium", "Beautiful Soup", "PRAW"]
+
+- title: "Data Management For Business Intelligence"
+  credits: 2
+  hours: 24
+  area: "Big Data Technology"
+  instructors:
+    - "Salvatore Ruggieri"
+  description: "Methodological aspects and technologies for designing, populating, and querying Data Warehouses for decision support."
+  tools: ["Analytical SQL", "ETL", "OLAP"]
+
+- title: "Data Mining & Machine Learning"
+  credits: 6
+  hours: 72
+  area: "Big Data Mining"
+  instructors:
+    - "Riccardo Guidotti"
+    - "Anna Monreale"
+  description: "Core module on the knowledge discovery process, from data preprocessing to model evaluation using state-of-the-art algorithms."
+  tools: ["Scikit-learn", "Orange", "Python"]
+
+- title: "Data-Driven Innovation & Data Storytelling"
+  credits: 1
+  hours: 12
+  area: "Big Data for Business"
+  instructors:
+    - "Giulio Ferrigno"
+    - "Angelica Lo Duca"
+  description: "Understanding data-driven innovation processes in firms and practical tools like the business model canvas in the big data era."
+
+- title: "Deep Learning-Based Artificial Intelligence"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  instructors:
+    - "Vincenzo Lomonaco"
+  description: "Design of predictive AI systems through deep neural networks, covering CNNs, RNNs, and advanced generative models."
+  tools: ["Tensorflow", "Keras", "Pytorch"]
+
+- title: "Information Retrieval"
+  credits: 3
+  hours: 36
+  area: "Big Data Sensing & Procurement"
+  instructors:
+    - "Paolo Ferragina"
+  description: "Design and implementation of search engines, including crawlers, indexers, and rankers for unstructured web data."
+
+- title: "Statistical Analysis"
+  credits: 4
+  hours: 48
+  area: "Data Science Foundations"
+  instructors:
+    - "Monica Pratesi"
+  description: "Foundations of probability, statistical inference, hypothesis testing, and regression for data modeling."
+
+- title: "Time Series And Mobility Data Analysis"
+  credits: 3
+  hours: 30
+  area: "Big Data Mining"
+  instructors:
+    - "Mirco Nanni"
+    - "Luca Pappalardo"
+  description: "Methods for processing and analyzing spatio-temporal data and time series, with a focus on mobility patterns."
+  tools: ["scikit-mobility", "tslearn"]
+
+- title: "Visual Analytics"
+  credits: 3
+  hours: 36
+  area: "Visual Analytics"
+  instructors:
+    - "Salvatore Rinzivillo"
+  description: "Interactive visualization techniques to support data exploration and communication of complex analytical results."
+  tools: ["D3.js", "Tableau", "PowerBI"]

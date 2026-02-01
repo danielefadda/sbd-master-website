@@ -1,0 +1,55 @@
+# Struttura dei corsi per l'anno accademico 2016-2017
+
+- title: "Alignment"
+  credits: 5
+  hours: 60
+  area: "Big Data Technology"
+  description: "Base alignment."
+
+- title: "Data Mining"
+  credits: 6
+  hours: 72
+  area: "Big Data Mining"
+  description: "Data mining."
+
+- title: "Machine Learning"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "ML methods."
+
+- title: "Deep Learning"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Deep learning."
+
+- title: "Information Retrieval"
+  credits: 3
+  hours: 36
+  area: "Big Data Sensing & Procurement"
+  description: "IR."
+
+- title: "Statistical Analysis"
+  credits: 4
+  hours: 48
+  area: "Data Science Foundations"
+  description: "Statistics."
+
+- title: "Text Mining"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Text mining."
+
+- title: "Visual Analytics"
+  credits: 3
+  hours: 36
+  area: "Visual Analytics"
+  description: "Visualization."
+
+- title: "Internship"
+  credits: 15
+  hours: 375
+  area: "Internship"
+  description: "Internship."

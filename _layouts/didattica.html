@@ -1,0 +1,159 @@
+---
+layout: default-full
+---
+
+<style>
+.badge-sm {
+    font-size: 1rem;
+    padding: 0.25rem 0.6rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    display: inline-block;
+}
+
+.badge-sm.primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.badge-sm.secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.badge-sm.info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.badge-sm.light {
+    background-color: #f8f9fa;
+    color: #212529;
+    border: 1px solid #dee2e6;
+}
+
+.accordion .btn-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.accordion .btn-link:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.accordion .btn-link:focus {
+    text-decoration: none;
+}
+</style>
+
+<main class="container-lg pb-3 flex-fill">
+    <div class="row pt-4">
+        <div class="col-12">
+            <h1 class="mb-4">{{ page.title }}</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Colonna principale -->
+        <div class="col-lg-9 order-2 order-lg-1">
+            <!-- Descrizione -->
+            <div class="mb-4">
+                {{ content }}
+            </div>
+
+            <!-- Accordion con i corsi -->
+            <h3 class="mb-3">Insegnamenti</h3>
+            <div class="accordion" id="accordionCorsi">
+                {% for corso in site.data[page.data_source] %}
+                <div class="card mb-2">
+                    <div class="card-header" id="heading{{ forloop.index }}">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+                                <strong>{{ corso.title }}</strong>
+                                <span class="badge-sm primary ml-2">{{ corso.credits }} CFU</span>
+                                <span class="badge-sm secondary ml-1">{{ corso.hours }}h</span>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionCorsi">
+                        <div class="card-body">
+                            {% if corso.area %}
+                            <p><strong>Area:</strong> <span class="badge-sm info">{{ corso.area }}</span></p>
+                            {% endif %}
+                            
+                            {% if corso.instructors %}
+                            <p><strong>Docenti:</strong> {{ corso.instructors | join: ", " }}</p>
+                            {% endif %}
+
+                            {% if corso.description %}
+                            <p><strong>Descrizione:</strong><br>{{ corso.description }}</p>
+                            {% endif %}
+
+                            {% if corso.tools %}
+                            <p><strong>Strumenti:</strong></p>
+                            <ul class="list-inline">
+                                {% for tool in corso.tools %}
+                                <li class="list-inline-item"><span class="badge-sm light">{{ tool }}</span></li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Statistiche riepilogative -->
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Totale Corsi</h5>
+                            <p class="display-4">{{ site.data[page.data_source] | size }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Totale CFU</h5>
+                            {% assign total_credits = 0 %}
+                            {% for corso in site.data[page.data_source] %}
+                                {% assign total_credits = total_credits | plus: corso.credits %}
+                            {% endfor %}
+                            <p class="display-4">{{ total_credits }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Totale Ore</h5>
+                            {% assign total_hours = 0 %}
+                            {% for corso in site.data[page.data_source] %}
+                                {% assign total_hours = total_hours | plus: corso.hours %}
+                            {% endfor %}
+                            <p class="display-4">{{ total_hours }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar sticky con menu edizioni -->
+        <div class="col-lg-3 order-1 order-lg-2 mb-4 mb-lg-0">
+            <div class="sticky-top" style="top: 20px;">
+                <h5 class="mb-3">Edizioni</h5>
+                <nav class="nav flex-column">
+                    {% for edizione in site.data.edizioni %}
+                    <a class="nav-link {% if edizione.active %}active font-weight-bold{% endif %}" href="{{ edizione.url }}">
+                        {{ edizione.label }}
+                    </a>
+                    {% endfor %}
+                </nav>
+            </div>
+        </div>
+    </div>
+</main>

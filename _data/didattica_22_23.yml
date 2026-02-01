@@ -1,0 +1,109 @@
+# Struttura dei corsi per l'anno accademico 2022-2023
+
+- title: "Advanced Topics in Network Science"
+  credits: 2
+  hours: 24
+  area: "Big Data Mining"
+  description: "Argomenti avanzati in network science e analisi di reti."
+
+- title: "Allineamento"
+  credits: 5
+  hours: 60
+  area: "Big Data Technology"
+  description: "Allineamento delle competenze di base in informatica."
+
+- title: "Big Data Ethics"
+  credits: 2
+  hours: 24
+  area: "Big Data Ethics"
+  description: "Aspetti etici e legali nel Big Data."
+
+- title: "Big Data for Society"
+  credits: 2
+  hours: 24
+  area: "Big Data for Social Good"
+  description: "Applicazioni del Big Data per il bene sociale."
+
+- title: "Big data sources, crowdsourcing, crowdsensing"
+  credits: 2
+  hours: 24
+  area: "Big Data Sensing & Procurement"
+  description: "Fonti dati, crowdsourcing e crowdsensing."
+
+- title: "Data Driven Innovation"
+  credits: 1
+  hours: 12
+  area: "Big Data for Business"
+  description: "Innovazione guidata dai dati."
+
+- title: "Data Management for Business Intelligence"
+  credits: 2
+  hours: 24
+  area: "Big Data Technology"
+  description: "Gestione dati per business intelligence."
+
+- title: "Data Mining & Machine Learning"
+  credits: 6
+  hours: 72
+  area: "Big Data Mining"
+  description: "Data mining e machine learning."
+
+- title: "Data Visualization and Data Journalism"
+  credits: 2
+  hours: 24
+  area: "Visual Analytics"
+  description: "Visualizzazione dei dati e data journalism."
+
+- title: "Deep Learning"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Deep learning e reti neurali profonde."
+
+- title: "Deep Learning for Multimedia Retrieval & Analysis"
+  credits: 2
+  hours: 24
+  area: "Big Data Mining"
+  description: "Deep learning per il retrieval multimediale."
+
+- title: "High Performance & Scalable Analytics, NO-SQL Big Data Platforms"
+  credits: 3
+  hours: 36
+  area: "Big Data Technology"
+  description: "Analytics ad alte prestazioni e piattaforme NoSQL."
+
+- title: "Information Retrieval"
+  credits: 3
+  hours: 36
+  area: "Big Data Sensing & Procurement"
+  description: "Information retrieval e search engines."
+
+- title: "Social Network Analysis"
+  credits: 2
+  hours: 24
+  area: "Big Data Mining"
+  description: "Analisi delle reti sociali."
+
+- title: "Statistical Methods for Data Science"
+  credits: 4
+  hours: 48
+  area: "Data Science Foundations"
+  description: "Metodi statistici per la data science."
+
+- title: "Text Analysis & Web Mining"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Analisi testuale e web mining."
+
+- title: "Time Series and Mobility Data Analysis"
+  credits: 3
+  hours: 30
+  area: "Big Data Mining"
+  description: "Analisi di serie temporali e dati di mobilità."
+
+- title: "Tirocinio"
+  credits: 15
+  hours: 375
+  area: "Internship"
+  description: "Tirocinio presso partner aziendali."

@@ -1,0 +1,86 @@
+# Struttura dei corsi per l'anno accademico 2025-2026
+# Da completare con i dettagli
+
+- title: "Alignment"
+  credits: 5
+  hours: 60
+  area: "Big Data Technology"
+  description: "Alignment of basic competences in computer science and data analysis."
+
+- title: "Artificial Intelligence Methods For Text Analysis And Web Mining"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "AI techniques for text analysis and web mining."
+
+- title: "Big Data Ethics"
+  credits: 2
+  hours: 24
+  area: "Big Data Ethics"
+  description: "Ethical and legal aspects of data analysis."
+
+- title: "Big Data For Society"
+  credits: 2
+  hours: 24
+  area: "Big Data for Social Good"
+  description: "Big data applications for social good."
+
+- title: "Big Data Sources, Crowdsourcing, Crowdsensing"
+  credits: 2
+  hours: 24
+  area: "Big Data Sensing & Procurement"
+  description: "Data acquisition and crowdsourcing methods."
+
+- title: "Data Management For Business Intelligence"
+  credits: 2
+  hours: 24
+  area: "Big Data Technology"
+  description: "Data warehouse design and management."
+
+- title: "Data Mining & Machine Learning"
+  credits: 6
+  hours: 72
+  area: "Big Data Mining"
+  description: "Core module on data mining and machine learning."
+
+- title: "Data-Driven Innovation & Data Storytelling"
+  credits: 1
+  hours: 12
+  area: "Big Data for Business"
+  description: "Data-driven innovation and storytelling."
+
+- title: "Deep Learning-Based Artificial Intelligence"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Deep neural networks and AI systems."
+
+- title: "Information Retrieval"
+  credits: 3
+  hours: 36
+  area: "Big Data Sensing & Procurement"
+  description: "Search engines and information retrieval."
+
+- title: "Statistical Analysis"
+  credits: 4
+  hours: 48
+  area: "Data Science Foundations"
+  description: "Probability, inference, and regression."
+
+- title: "Time Series And Mobility Data Analysis"
+  credits: 3
+  hours: 30
+  area: "Big Data Mining"
+  description: "Spatio-temporal and time series analysis."
+
+- title: "Visual Analytics"
+  credits: 3
+  hours: 36
+  area: "Visual Analytics"
+  description: "Interactive visualization techniques."
+
+- title: "Internship"
+  credits: 15
+  hours: 375
+  area: "Internship"
+  description: "Internship with partner companies."

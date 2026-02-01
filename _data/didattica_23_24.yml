@@ -1,0 +1,98 @@
+# Struttura dei corsi per l'anno accademico 2023-2024
+# Nota: Per il completamento dettagliato dei corsi, aggiungere informazioni specifiche
+
+- title: "Alignment"
+  credits: 5
+  hours: 60
+  area: "Big Data Technology"
+  description: "Allineamento delle competenze in informatica e analisi di base."
+
+- title: "Artificial Intelligence Methods For Text Analysis And Web Mining"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Tecniche di intelligenza artificiale per l'analisi di testi e dati dal web."
+
+- title: "Big Data Ethics"
+  credits: 2
+  hours: 24
+  area: "Big Data Ethics"
+  description: "Nozioni etiche e legali di privacy, anonimato e discriminazione."
+
+- title: "Big Data For Society"
+  credits: 2
+  hours: 24
+  area: "Big Data for Social Good"
+  description: "Case study e applicazioni reali dell'analisi big data."
+
+- title: "Big Data Sources, Crowdsourcing, Crowdsensing"
+  credits: 2
+  hours: 24
+  area: "Big Data Sensing & Procurement"
+  description: "Metodologie di data ingestion, crawling e scraping."
+
+- title: "Data Management For Business Intelligence"
+  credits: 2
+  hours: 24
+  area: "Big Data Technology"
+  description: "Aspetti metodologici e tecnologie per data warehouse."
+
+- title: "Data Mining & Machine Learning"
+  credits: 6
+  hours: 72
+  area: "Big Data Mining"
+  description: "Modulo centrale sul processo di knowledge discovery."
+
+- title: "Data Visualization & Data Journalism"
+  credits: 2
+  hours: 24
+  area: "Visual Analytics"
+  description: "Tecniche di visualizzazione interattiva dei dati."
+
+- title: "Data-Driven Innovation"
+  credits: 1
+  hours: 12
+  area: "Big Data for Business"
+  description: "Processi di innovazione data-driven nelle aziende."
+
+- title: "Deep Learning-Based Artificial Intelligence"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Design di sistemi di AI predittivi attraverso reti neurali profonde."
+
+- title: "Information Retrieval"
+  credits: 3
+  hours: 36
+  area: "Big Data Sensing & Procurement"
+  description: "Design e implementazione di motori di ricerca."
+
+- title: "Social Network Analysis"
+  credits: 2
+  hours: 24
+  area: "Big Data Mining"
+  description: "Analisi e mining delle reti sociali."
+
+- title: "Statistical Methods for Data Science"
+  credits: 4
+  hours: 48
+  area: "Data Science Foundations"
+  description: "Fondamenti di probabilità, inferenza statistica e regressione."
+
+- title: "Time Series And Mobility Data Analysis"
+  credits: 3
+  hours: 30
+  area: "Big Data Mining"
+  description: "Metodi per l'analisi di dati spazio-temporali e serie storiche."
+
+- title: "Laboratory Of Big Data And Artificial Intelligence For Society"
+  credits: 2
+  hours: 24
+  area: "Big Data for Social Good"
+  description: "Laboratorio pratico su applicazioni big data per il bene sociale."
+
+- title: "Internship"
+  credits: 15
+  hours: 375
+  area: "Internship"
+  description: "Tirocinio presso partner aziendali."

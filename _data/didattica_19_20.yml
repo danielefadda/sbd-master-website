@@ -1,0 +1,61 @@
+# Struttura dei corsi per l'anno accademico 2019-2020
+
+- title: "Alignment"
+  credits: 5
+  hours: 60
+  area: "Big Data Technology"
+  description: "Allineamento competenze."
+
+- title: "Big Data Ethics"
+  credits: 2
+  hours: 24
+  area: "Big Data Ethics"
+  description: "Etica nel Big Data."
+
+- title: "Data Mining & Machine Learning"
+  credits: 6
+  hours: 72
+  area: "Big Data Mining"
+  description: "Core course su data mining."
+
+- title: "Deep Learning"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Deep learning methods."
+
+- title: "Information Retrieval"
+  credits: 3
+  hours: 36
+  area: "Big Data Sensing & Procurement"
+  description: "Information retrieval."
+
+- title: "Statistical Analysis"
+  credits: 4
+  hours: 48
+  area: "Data Science Foundations"
+  description: "Analisi statistica."
+
+- title: "Text Mining"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Text mining e NLP."
+
+- title: "Time Series Analysis"
+  credits: 3
+  hours: 30
+  area: "Big Data Mining"
+  description: "Time series."
+
+- title: "Visual Analytics"
+  credits: 3
+  hours: 36
+  area: "Visual Analytics"
+  description: "Visual analytics."
+
+- title: "Internship"
+  credits: 15
+  hours: 375
+  area: "Internship"
+  description: "Tirocinio."

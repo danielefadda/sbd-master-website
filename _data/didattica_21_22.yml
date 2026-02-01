@@ -1,0 +1,85 @@
+# Struttura dei corsi per l'anno accademico 2021-2022
+
+- title: "Alignment"
+  credits: 5
+  hours: 60
+  area: "Big Data Technology"
+  description: "Allineamento delle competenze di base."
+
+- title: "Big Data Ethics"
+  credits: 2
+  hours: 24
+  area: "Big Data Ethics"
+  description: "Etica e privacy nel Big Data."
+
+- title: "Big Data for Society"
+  credits: 2
+  hours: 24
+  area: "Big Data for Social Good"
+  description: "Applicazioni del Big Data."
+
+- title: "Big Data Sources, Crowdsourcing, Crowdsensing"
+  credits: 2
+  hours: 24
+  area: "Big Data Sensing & Procurement"
+  description: "Fonti e acquisizione dati."
+
+- title: "Data Driven Innovation"
+  credits: 1
+  hours: 12
+  area: "Big Data for Business"
+  description: "Innovazione data-driven."
+
+- title: "Data Management for Business Intelligence"
+  credits: 2
+  hours: 24
+  area: "Big Data Technology"
+  description: "Data management e BI."
+
+- title: "Data Mining & Machine Learning"
+  credits: 6
+  hours: 72
+  area: "Big Data Mining"
+  description: "Machine learning e data mining."
+
+- title: "Deep Learning"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Deep learning."
+
+- title: "Information Retrieval"
+  credits: 3
+  hours: 36
+  area: "Big Data Sensing & Procurement"
+  description: "Information retrieval."
+
+- title: "Statistical Methods for Data Science"
+  credits: 4
+  hours: 48
+  area: "Data Science Foundations"
+  description: "Metodi statistici."
+
+- title: "Text Analysis & Web Mining"
+  credits: 3
+  hours: 36
+  area: "Big Data Mining"
+  description: "Text analysis e web mining."
+
+- title: "Time Series and Mobility Data Analysis"
+  credits: 3
+  hours: 30
+  area: "Big Data Mining"
+  description: "Serie temporali e mobilità."
+
+- title: "Visual Analytics"
+  credits: 3
+  hours: 36
+  area: "Visual Analytics"
+  description: "Visual analytics."
+
+- title: "Internship"
+  credits: 15
+  hours: 375
+  area: "Internship"
+  description: "Tirocinio."

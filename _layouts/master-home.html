@@ -1,0 +1,162 @@
+---
+layout: default-full
+---
+
+<!-- Hero Section -->
+<section class="hero-section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 0;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-4 font-weight-bold mb-4">{{ page.title }}</h1>
+                <p class="lead mb-4">{{ page.subtitle }}</p>
+                {% if page.hero_cta %}
+                <div class="d-flex justify-content-center flex-wrap">
+                    {% for cta in page.hero_cta %}
+                    <a href="{{ cta.url | relative_url }}" class="btn btn-{{ cta.style }} btn-lg mx-2 mb-2">{{ cta.text }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+{% if page.stats %}
+<section class="stats-section py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            {% for stat in page.stats %}
+            <div class="col-4 col-md-4 mb-3">
+                <div class="stat-card text-center p-3 h-100 rounded" style="background-color: {{ stat.color }}; color: {{ stat.text_color | default: '#000' }};">
+                    <div class="stat-label font-weight-bold" style="font-size: 1.1rem;">{{ stat.label }}</div>
+                    <div class="stat-value font-weight-bold mt-2" style="font-size: 2rem;">{{ stat.value }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- Info Alert Section -->
+{% if page.info_alert %}
+<section class="info-alert-section py-4" style="background-color: #f8f9fa;">
+    <div class="container">
+        <div class="alert alert-{{ page.info_alert.type | default: 'info' }} mb-0">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h3 class="alert-heading">{{ page.info_alert.title }}</h3>
+                    <div>{{ page.info_alert.content | markdownify }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- Main Content Section -->
+<section class="content-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                {{ content }}
+
+            <!-- Feature Cards Section -->
+                {% if page.feature_cards %}
+                <section class="features-section py-5 bg-light">
+                    <div class="container">
+                        {% if page.feature_cards.title %}
+                        <h2 class="text-center mb-5">{{ page.feature_cards.title }}</h2>
+                        {% endif %}
+                        <div class="row">
+                            {% for card in page.feature_cards.items %}
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        {% if card.icon %}
+                                        <div class="mb-3">
+                                            <i class="fa fa-{{ card.icon }} fa-2x" style="color: #667eea;"></i>
+                                        </div>
+                                        {% endif %}
+                                        <h5 class="card-title font-weight-bold">{{ card.title }}</h5>
+                                        <div class="card-text">{{ card.content | markdownify }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </section>
+                {% endif %}
+            </div>
+            
+            <!-- Sidebar -->
+            {% if page.sidebar %}
+            <div class="col-lg-3">
+                <div class="sidebar-info bg-light p-4 rounded sticky-top" style="top: 60px; z-index: 0;">
+                    <h4 class="h5 font-weight-bold mb-4">{{ page.sidebar.title }}</h4>
+                    
+                    {% for section in page.sidebar.sections %}
+                    <div class="mb-4">
+                        <h5 class="h6 font-weight-bold text-uppercase mb-3" style="color: #667eea;">{{ section.title }}</h5>
+                        {% for item in section.items %}
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="fa fa-{{ item.icon }} mr-2 mt-1" style="color: #667eea;"></i>
+                            <div class="small">
+                                <strong>{{ item.label }}:</strong> 
+                                {% if item.link %}
+                                <a href="{{ item.link }}">{{ item.value }}</a>
+                                {% else %}
+                                {{ item.value }}
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+
+
+<!-- CTA Section -->
+{% if page.cta_section %}
+<section class="cta-section py-5" style="background-color: #667eea; color: white;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h3 class="mb-4">{{ page.cta_section.title }}</h3>
+                <p class="lead mb-4">{{ page.cta_section.description }}</p>
+                {% if page.cta_section.buttons %}
+                <div class="d-flex justify-content-center flex-wrap">
+                    {% for button in page.cta_section.buttons %}
+                    <a href="{{ button.url | relative_url }}" class="btn btn-{{ button.style }} btn-lg mx-2 mb-2">{{ button.text }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<style>
+.stat-card {
+    transition: transform 0.3s ease;
+}
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+}
+</style>

@@ -1,0 +1,116 @@
+# Partners configuration
+# Fields:
+#   name: Nome del partner
+#   logo: Percorso dell'immagine del logo (assets/images/partner/)
+#   type: Tipo di ruolo - service, vendor, research
+#   level: Livello di partnership - gold, silver
+#   active: Attivo o disattivo - true, false
+
+partners:
+  - name: "IBM"
+    logo: "assets/images/partner/Logo-IBM NERO.jpg"
+    type: "vendor"
+    level: "gold"
+    active: true
+
+  - name: "Generali"
+    logo: "assets/images/partner/Logo-Generali.png"
+    type: "service"
+    level: "gold"
+    active: true
+
+  - name: "AlmavivA"
+    logo: "assets/images/partner/Logo-AlmavivA_300dpi.jpg"
+    type: "vendor"
+    level: "gold"
+    active: true
+
+  - name: "IRPET"
+    logo: "assets/images/partner/Logo-Irpet_marchio.jpg"
+    type: "research"
+    level: "gold"
+    active: true
+
+  - name: "Bridge Consulting"
+    logo: "assets/images/partner/BridgeConsulting- Logo.png"
+    type: "service"
+    level: "silver"
+    active: true
+
+  - name: "Net7"
+    logo: "assets/images/partner/Logo-Net7.png"
+    type: "vendor"
+    level: "silver"
+    active: true
+
+  - name: "Kode"
+    logo: "assets/images/partner/Kode Logo Payoff Gray.png"
+    type: "research"
+    level: "silver"
+    active: true
+
+  - name: "OCTO"
+    logo: "assets/images/partner/Logo-Octo.jpg"
+    type: "service"
+    level: "silver"
+    active: true
+
+  - name: "SAS"
+    logo: "assets/images/partner/Logo-Sas_vert.jpg"
+    type: "vendor"
+    level: "gold"
+    active: true
+
+  - name: "MicroStrategy"
+    logo: "assets/images/partner/MicroStrategyLogo_Red.png"
+    type: "vendor"
+    level: "silver"
+    active: true
+
+  - name: "Almawave"
+    logo: "assets/images/partner/almawave-logo_new.png"
+    type: "service"
+    level: "silver"
+    active: true
+
+  - name: "Freeda"
+    logo: "assets/images/partner/LOGO_FREEDA_SFONDO_TRASPARENTE_JPG.jpg"
+    type: "research"
+    level: "silver"
+    active: true
+
+  - name: "Coop AltaRis"
+    logo: "assets/images/partner/Logo-Coop-AltaRis.jpg"
+    type: "service"
+    level: "silver"
+    active: true
+
+  - name: "Nova - Sole24Ore"
+    logo: "assets/images/partner/Logo-Nova-sole24ore.jpg"
+    type: "vendor"
+    level: "silver"
+    active: true
+
+  - name: "Energee3"
+    logo: "assets/images/partner/logo-energee3.png"
+    type: "research"
+    level: "silver"
+    active: true
+
+  - name: "VFC"
+    logo: "assets/images/partner/vfc-logo.jpeg"
+    type: "service"
+    level: "silver"
+    active: true
+
+  - name: "Korber Tissue"
+    logo: "assets/images/partner/korbertissue-logo.png"
+    type: "vendor"
+    level: "silver"
+    active: false
+
+  - name: "TD"
+    logo: "assets/images/partner/logo-td.png"
+    type: "research"
+    level: "silver"
+    active: false
