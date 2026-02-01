@@ -3,7 +3,7 @@ layout: default
 title: "Partner"
 subtitle: "I nostri partner attuali e passati"
 permalink: /partner/
-partner: true
+partner: false
 show_sidetoc: false
 ---
 

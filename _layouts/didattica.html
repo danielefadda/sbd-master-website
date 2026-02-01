@@ -35,6 +35,9 @@ layout: default-full
 .accordion .btn-link {
     text-decoration: none;
     color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .accordion .btn-link:hover {
@@ -44,6 +47,23 @@ layout: default-full
 
 .accordion .btn-link:focus {
     text-decoration: none;
+}
+
+.accordion .btn-link::after {
+    content: " +";
+    font-weight: bold;
+    color: #007bff;
+    transition: all 0.3s ease;
+    margin-left: auto;
+}
+
+.accordion .btn-link:not(.collapsed)::after {
+    content: " -";
+}
+
+.col-lg-3 .sticky-top {
+    z-index: 0;
+    top: 60px;
 }
 </style>
 
@@ -148,7 +168,7 @@ layout: default-full
                 <h5 class="mb-3">Edizioni</h5>
                 <nav class="nav flex-column">
                     {% for edizione in site.data.edizioni %}
-                    <a class="nav-link {% if edizione.active %}active font-weight-bold{% endif %}" href="{{ edizione.url }}">
+                    <a class="nav-link {% if edizione.url == page.url %}active font-weight-bold{% endif %}" href="{{ edizione.url }}">
                         {{ edizione.label }}
                     </a>
                     {% endfor %}
