@@ -102,3 +102,707 @@
 .bg-color {
   background-color: rgba(243, 173, 149, 0.3);
 }
+
+// ====== DESIGN SYSTEM - COLOR PALETTE ======
+// Colori principali dal config.yml (chulapa-skin)
+$primary-color: #07286E;      // Blu scuro primario (corpo, navbar, footer)
+$secondary-color: #9b1626;    // Rosso scuro (link)
+$secondary-hover: #de1f36;    // Rosso più chiaro (link hover)
+$light-gray: #f8f9fa;
+$dark-gray: #333;
+$border-gray: #dee2e6;
+$white: #fff;
+$gold: #FFD700;
+$silver: #C0C0C0;
+$shadow-light: 0 2px 8px rgba(0, 0, 0, 0.1);
+$shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.15);
+$shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
+
+// ====== BADGE STYLES ======
+.badge-sm {
+    font-size: 1rem;
+    padding: 0.25rem 0.6rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.badge-sm.primary {
+    background-color: $primary-color;
+    color: $white;
+}
+
+.badge-sm.secondary {
+    background-color: #6c757d;
+    color: $white;
+}
+
+.badge-sm.info {
+    background-color: #17a2b8;
+    color: $white;
+}
+
+.badge-sm.light {
+    background-color: $light-gray;
+    color: #212529;
+    border: 1px solid $border-gray;
+}
+
+// ====== ACCORDION STYLES ======
+.accordion .btn-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion .btn-link:hover {
+    text-decoration: none;
+    color: $primary-color;
+}
+
+.accordion .btn-link:focus {
+    text-decoration: none;
+}
+
+.accordion .btn-link::after {
+    content: " +";
+    font-weight: bold;
+    color: $primary-color;
+    transition: all 0.3s ease;
+    margin-left: auto;
+}
+
+.accordion .btn-link:not(.collapsed)::after {
+    content: " -";
+}
+
+.col-lg-3 .sticky-top {
+    z-index: 0;
+    top: 60px;
+}
+
+// ====== CARD STYLES - UNIVERSAL ======
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: $shadow-hover !important;
+}
+
+.stat-card {
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+// ====== PARTNERS SECTION STYLES ======
+.partners-section {
+  padding: 60px 0;
+  background-color: $light-gray;
+  margin: 40px 0;
+}
+
+.partners-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.partners-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: $dark-gray;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  align-items: stretch;
+  margin: 40px 0;
+}
+
+.partner-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: $shadow-light;
+  transition: all 0.3s ease;
+  border-top: 4px solid $border-gray;
+}
+
+.partner-item:hover {
+  box-shadow: $shadow-medium;
+  transform: translateY(-2px);
+}
+
+.partner-item.partner-inactive {
+  opacity: 0.7;
+}
+
+.partner-item.partner-inactive:hover {
+  opacity: 0.9;
+}
+
+.partner-item.partner-gold {
+  border-top-color: $gold;
+}
+
+.partner-item.partner-silver {
+  border-top-color: $silver;
+}
+
+.partner-logo-wrapper {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.partner-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.partner-info {
+  width: 100%;
+}
+
+.partner-name {
+  margin: 10px 0;
+  font-weight: 600;
+  color: $dark-gray;
+  font-size: 0.95rem;
+}
+
+.partner-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 2px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.partner-badge-service {
+  background-color: #E3F2FD;
+  color: #1976D2;
+}
+
+.partner-badge-vendor {
+  background-color: #F3E5F5;
+  color: #7B1FA2;
+}
+
+.partner-badge-research {
+  background-color: #E8F5E9;
+  color: #388E3C;
+}
+
+.partner-badge-gold {
+  background-color: #FFF8E1;
+  color: #F57F17;
+  font-weight: 700;
+}
+
+.partner-badge-silver {
+  background-color: #ECEFF1;
+  color: #455A64;
+  font-weight: 700;
+}
+
+// ====== DIRETTIVO SECTION STYLES ======
+.direttivo-container {
+  margin: 40px 0;
+}
+
+.direzione-section,
+.consiglio-section {
+  margin-bottom: 60px;
+}
+
+.direzione-section h2,
+.consiglio-section h2 {
+  color: $dark-gray;
+  margin-bottom: 40px;
+  font-size: 1.75rem;
+  font-weight: 600;
+  border-bottom: 3px solid $primary-color;
+  padding-bottom: 15px;
+}
+
+.direttivi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  align-items: stretch;
+}
+
+.docente-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: $shadow-light;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.docente-card:hover {
+  box-shadow: $shadow-hover;
+  transform: translateY(-4px);
+}
+
+.docente-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.docente-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.docente-card:hover .docente-image img {
+  transform: scale(1.05);
+}
+
+.docente-info {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.docente-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: $dark-gray;
+  margin: 0 0 8px 0;
+}
+
+.docente-role {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: $primary-color;
+  margin: 0 0 5px 0;
+}
+
+.docente-institution {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0 0 12px 0;
+  font-style: italic;
+}
+
+.docente-bio {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+
+// ====== CONTACT SECTION STYLES ======
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 40px 0;
+  align-items: start;
+}
+
+.contact-info {
+  background: $light-gray;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: $shadow-light;
+}
+
+.contact-info h3 {
+  color: $dark-gray;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  color: $primary-color;
+  margin-top: 2px;
+  min-width: 25px;
+}
+
+.contact-text {
+  flex: 1;
+}
+
+.contact-text strong {
+  display: block;
+  color: $dark-gray;
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+}
+
+.contact-text p {
+  color: #666;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.contact-text a {
+  color: $secondary-color;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-text a:hover {
+  color: $secondary-hover;
+  text-decoration: underline;
+}
+
+.logos-section {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: $shadow-light;
+}
+
+.logos-section h3 {
+  color: $dark-gray;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.logos-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: $light-gray;
+  border-radius: 8px;
+  min-height: 140px;
+  transition: all 0.3s ease;
+}
+
+.logo-item:hover {
+  background: white;
+  box-shadow: $shadow-light;
+}
+
+.logo-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+// ====== GLOBAL LINK STYLES - ARMONIZZAZIONE ======
+a {
+  color: $secondary-color;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: $secondary-hover;
+  }
+}
+
+// ====== HEADING STYLES ======
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rajdhani', sans-serif;
+  color: $primary-color;
+}
+
+// ====== SECTION DIVIDERS ======
+.section-divider {
+  border-top: 2px solid $primary-color;
+  margin: 2rem 0;
+}
+
+// ====== ACCENT COLORS FOR HIGHLIGHTS ======
+.accent-primary {
+  color: $primary-color;
+}
+
+.accent-secondary {
+  color: $secondary-color;
+}
+
+.bg-accent-primary {
+  background-color: rgba(7, 40, 110, 0.1);
+}
+
+.bg-accent-secondary {
+  background-color: rgba(155, 22, 38, 0.1);
+}
+
+// ====== RESPONSIVE DESIGN ======
+
+// Partners responsive
+@media (max-width: 768px) {
+  .partners-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+
+  .partners-title {
+    font-size: 1.5rem;
+  }
+
+  .partner-item {
+    padding: 15px;
+  }
+
+  .partner-logo-wrapper {
+    height: 120px;
+  }
+
+  // Direttivo responsive
+  .direttivi-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .direzione-section h2,
+  .consiglio-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .docente-image {
+    height: 200px;
+  }
+
+  .docente-info {
+    padding: 15px;
+  }
+
+  .docente-name {
+    font-size: 1.1rem;
+  }
+
+  // Contact responsive
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .contact-info,
+  .logos-section {
+    padding: 20px;
+  }
+  
+  .contact-info h3,
+  .logos-section h3 {
+    font-size: 1.25rem;
+  }
+  
+  .contact-item {
+    gap: 12px;
+  }
+  
+  .contact-item i {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partners-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+  }
+
+  .partner-logo-wrapper {
+    height: 100px;
+  }
+
+  .partner-name {
+    font-size: 0.85rem;
+  }
+
+  .partner-badge {
+    padding: 3px 8px;
+    font-size: 0.7rem;
+  }
+
+  // Direttivo mobile
+  .direttivi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .docente-image {
+    height: 180px;
+  }
+
+  .docente-name {
+    font-size: 1rem;
+  }
+
+  .docente-bio {
+    font-size: 0.85rem;
+  }
+
+  // Contact mobile
+  .contact-info,
+  .logos-section {
+    padding: 15px;
+  }
+  
+  .contact-item i {
+    font-size: 1.1rem;
+  }
+  
+  .contact-text strong {
+    font-size: 0.9rem;
+  }
+  
+  .contact-text p {
+    font-size: 0.85rem;
+  }
+}
+
+// ====== PROGETTI CARDS STYLES ======
+#projects-container {
+  a {
+    text-decoration: none;
+    color: inherit;
+    
+    &:hover {
+      text-decoration: none;
+      color: $primary-color;
+    }
+  }
+  
+  .project {
+    background-color: $white;
+    border: 2px solid $border-gray;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: $shadow-light;
+    
+    &:hover {
+      border-color: $secondary-hover;
+      box-shadow: $shadow-hover;
+      transform: translateY(-4px);
+    }
+    
+    .project-img {
+      overflow: hidden;
+      background-color: $light-gray;
+      
+      img {
+        width: 100%;
+        // height: 250px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+    }
+    
+    &:hover .project-img img {
+      transform: scale(1.05);
+    }
+    
+    .project-body {
+      padding: 1.5rem;
+      
+      h5 {
+        margin-top: 0;
+        margin-bottom: 0.75rem;
+        font-weight: 700;
+        color: $primary-color;
+        font-size: 1.25rem;
+      }
+      
+      > p {
+        margin-bottom: 1rem;
+        color: #555;
+        font-size: 0.95rem;
+        line-height: 1.6;
+      }
+      
+      .students {
+        margin-bottom: 0;
+        font-size: 0.9rem;
+        color: #666;
+        
+        em {
+          font-style: italic;
+        }
+        
+        strong {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+// Responsive adjustments for projects container
+@media (max-width: 768px) {
+  #projects-container {
+    .project {
+      margin-bottom: 1rem;
+      
+      .col-md-4,
+      .col-md-8 {
+        margin-bottom: 1rem;
+      }
+      
+      .project-img img {
+        height: 200px;
+      }
+      
+      .project-body {
+        padding: 1rem;
+        
+        h5 {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

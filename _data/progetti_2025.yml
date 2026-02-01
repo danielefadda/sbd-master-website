@@ -1,0 +1,34 @@
+- name: "Gamebreaking"
+  group: 1
+  img_url: "/assets/images/progetti/g1_videogame.png"
+  description: "Unlocking the data behind a videogame's success"
+  path: "https://scordinod1994.github.io/g1-2025-website/"
+  students: ["Gioele Eterno", "Giancarlo Padula", "Elvira Papaleo", "Domenico Scordino", "Guangrui Shi"]
+
+- name: "You don't need to be coy, COI!"
+  group: 2
+  img_url: "/assets/images/progetti/g2_2025_medical.png"
+  description: "Concerning companies and medical research"
+  path: "https://giovannaandreucci.github.io/g2-2025-website/"
+  students: ["Andreucci Giovanna", "Arioli Jacopo", "Baronchelli Davide", "Conte Emanuele", "Gullace Viola", "Fonderico Mattia", "Bianchini Massimiliano"]
+
+- name: "The italian Job of Cyber Crime"
+  group: 4
+  img_url: "/assets/images/progetti/g4_cyberattacks.jpg"
+  description: "Data, Emotions, and Investments in the Cyber War"
+  path: "https://balzu.github.io/g4-2025-website/"
+  students: ["Amati Emanuele", "Balzano Francesco", "Conte Davide", "Lorusso Francesca", "Scudiero Lidia"]
+
+- name: "Like 2 Resell"
+  group: 5
+  img_url: "/assets/images/progetti/g5_2025_Like_2_Resell.jpg"
+  description: "How popularity rules the second hand market"
+  path: "https://bianich.github.io/g5-2025-website/"
+  students: ["Bonini Simone", "Bianchi Thomas", "Giannoni Beatrice", "Grassi Francesco", "Marti' Aguirre Stefano", "Pizzi Costanza"]
+
+- name: "The European Mammal Atlas"
+  group: 6
+  img_url: "/assets/images/progetti/g6_2025_mammals.jpg"
+  description: "Climate change, land use and the future of terrestrial wildlife"
+  path: "https://pio-code.github.io/g6-2025-website/"
+  students: ["Aghaalikhani Milad", "Buonanno Giuseppe", "Cuppone Francesca", "Landolfo Alessandro Pio", "Liuzzo Scorpo Rosario", "Wimmer Sarah"]
