@@ -806,3 +806,8 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+
+// Navbar fix
+.navbar-chulapa .dropdown-menu .dropdown-item:hover, .navbar-chulapa .dropdown-menu .dropdown-item:focus {
+    color: #de1f36;
+}
