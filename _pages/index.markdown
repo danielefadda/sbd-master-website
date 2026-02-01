@@ -2,6 +2,10 @@
 layout: master-home
 title: "Master in Big Data Analytics & AI for Society"
 subtitle: "Un percorso annuale per diventare Data Scientist"
+# header_type: hero #base, post, hero,image, splash
+# header_img: assets/images/header.png
+# header_title: "Master in Big Data Analytics & AI for Society"
+# vega: true
 
 # Hero CTA Buttons
 hero_cta:
