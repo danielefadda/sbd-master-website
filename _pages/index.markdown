@@ -96,7 +96,7 @@ sidebar:
         - icon: "industry"
           label: "Ore Tirocinio"
           value: "425"
-        - icon: "money"
+        - icon: "credit-card"
           label: "Costo"
           value: "4500€"
         - icon: "users"

@@ -47,7 +47,6 @@ show_sidetoc: false
           <h3 class="docente-name">{{ docente.name }}</h3>
           <p class="docente-role">{{ docente.role }}</p>
           <p class="docente-institution">{{ docente.institution }}</p>
-          <p class="docente-bio">{{ docente.bio }}</p>
         </div>
       </div>
       {% endfor %}
