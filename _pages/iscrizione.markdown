@@ -42,7 +42,7 @@ All'inizio del Master è previsto un corso di Allineamento che ha l'obiettivo di
 
 ### Procedura di Iscrizione
 
-Per partecipare alla procedura di ammissione al Master il candidato deve presentare domanda di iscrizione, collegandosi al Portale Alice, seguendo le istruzioni riportate nel bando (art. 1) **a decorrere dal <span id="data-apertura-procedura">caricamento...</span> ed entro e non oltre le ore 13.00 del giorno <span id="data-chiusura-procedura">caricamento...</span>**. Al termine della procedura di presentazione della domanda on-line, il sistema genera una ricevuta comprovante il corretto inserimento della domanda di immatricolazione. E' consentito il pagamento della contribuzione da parte di aziende private ed enti pubblici. I dettagli sulle modalità di pagamento per l'immatricolazione sono riportati nell'art 1 del bando (link in cima alla pagina). **Contestualmente alla richiesta di iscrizione, i candidati che intendono partecipare al Master devono produrre i seguenti documenti per la fase di selezione:**
+Per partecipare alla procedura di ammissione al Master il candidato deve presentare domanda di iscrizione, collegandosi al Portale Alice, seguendo le istruzioni riportate nel bando (art. 1) **a decorrere dal <span id="data-apertura-procedura">caricamento...</span> ed entro e non oltre le ore 13.00 del giorno <span id="data-chiusura-procedura">caricamento...</span>**. Al termine della procedura di presentazione della domanda on-line, il sistema genera una ricevuta comprovante il corretto inserimento della domanda di immatricolazione. E' consentito il pagamento della contribuzione da parte di aziende private ed enti pubblici. I dettagli sulle modalità di pagamento per l'immatricolazione sono riportati nell'art 1 del bando [(link al bando)](https://alboufficiale.unipi.it/wp-content/uploads/2025/07/bando_master_25-26.pdf). **Contestualmente alla richiesta di iscrizione, i candidati che intendono partecipare al Master devono produrre i seguenti documenti per la fase di selezione:**
 
 *   **Curriculum Vitae** nel quale deve essere obbligatoriamente specificato la data di nascita, il possesso del titolo di studio richiesto per l'ammissione, ovvero la laurea Magistrale, completo della votazione conseguita, la data e l'Ateneo di conseguimento. Il curriculum vitae deve essere firmato in originale, con allegato un documento di identità. Nel caso di titolo di studio estero, il candidato deve produrre la documentazione indicata nell'art. 5 del bando. Il candidato che intendesse sottoporre alla valutazione della commissione esaminatrice elementi relativi alle carriere universitarie svoltesi presso l’Università di Pisa deve darne indicazione nel curriculum in modo da poter procedere all’acquisizione di ufficio del titolo e degli altri dati indicati espressamente e in possesso dell’Università di Pisa.
     
@@ -59,6 +59,19 @@ Tutti i documenti sopra-indicati necessari per l'eventuale selezione devono esse
     
 
 **Master in Big Data Analytics and Artificial Intelligence for SocietyDipartimento di InformaticaLargo Pontecorvo, 356127 Pisa**
+
+<div style="background: #f0f8ff; border-left: 4px solid #0066cc; padding: 20px; margin: 25px 0; border-radius: 4px;">
+  <h4 style="margin-top: 0; color: #0066cc;">📋 Check-list Documentazione</h4>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="margin: 10px 0;">☐ <strong>CV firmato:</strong> Con data di nascita, dettaglio titolo di studio, voto e Ateneo.</li>
+    <li style="margin: 10px 0;">☐ <strong>Documento d'identità:</strong> Copia in corso di validità.</li>
+    <li style="margin: 10px 0;">☐ <strong>Lettera di Presentazione:</strong> Motivazioni e self-assessment di adeguatezza.</li>
+    <li style="margin: 10px 0;">☐ <strong>ISEE Diritto allo Studio:</strong> Solo per chi richiede agevolazioni.</li>
+  </ul>
+</div>
+
+
+
 
 ### Selezione e Ammissione
 
