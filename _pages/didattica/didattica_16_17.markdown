@@ -3,6 +3,9 @@ layout: didattica
 title: "Didattica 2016-2017"
 permalink: /didattica/16-17
 data_source: didattica_16_17
+header_type: sbd #,hero, base, post, hero,image, splash
+header_img: assets/images/header.svg
+header_title: " "
 ---
 
 Il **Master Big Data** è un master full-time specializzato in Big Data Analytics.

@@ -3,6 +3,9 @@ layout: didattica
 title: "Didattica 2018-2019"
 permalink: /didattica/18-19
 data_source: didattica_18_19
+header_type: sbd #,hero, base, post, hero,image, splash
+header_img: assets/images/header.svg
+header_title: " "
 ---
 
 Il **Master Big Data** è un master full-time che prepara i professionisti nel campo del Big Data Analytics.

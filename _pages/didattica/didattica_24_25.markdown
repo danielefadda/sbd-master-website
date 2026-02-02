@@ -1,20 +1,23 @@
 ---
 layout: didattica
-title: "Didattica 2023-2024"
-permalink: /didattica/23-24
-data_source: didattica_23_24
+title: "Didattica 2024-2025"
+permalink: /didattica/24-25
+data_source: didattica_24_25
+header_type: sbd #,hero, base, post, hero,image, splash
+header_img: assets/images/header.svg
+header_title: " "
 ---
 
 Il **Master Big Data** è un master full-time erogato interamente online che ha durata di un anno a partire da novembre. L'attività didattica prevede due fasi principali:
 
 - **Prima fase** (Novembre - Luglio): dedicata alle lezioni frontali e attività progettuali
-- **Seconda fase** (Agosto - Dicembre): dedicata al tirocinio di 475 ore presso i nostri partner
+- **Seconda fase** (Agosto - Dicembre): dedicata al tirocinio di 425 ore presso i nostri partner
 
 ## Organizzazione Didattica
 
-L'attività didattica settimanale durante la prima fase prevede alcune ore di lezioni frontali concentrate dal **mercoledì al sabato** e delle ore di laboratorio (non obbligatorie) durante le quali gli studenti potranno esercitarsi sperimentando sul campo i metodi presentati a lezione con il supporto di tutor.
+L'attività didattica settimanale durante la prima fase prevede alcune ore di lezioni frontali concentrate dal **mercoledì al sabato** e delle ore di laboratorio durante le quali gli studenti potranno esercitarsi sperimentando sul campo i metodi presentati a lezione con il supporto di tutor.
 
-Il Consiglio del Master ha stabilito che ai fini del conseguimento del titolo sarà necessaria la **presenza obbligatoria dello studente ad almeno il 70%** delle ore di lezioni frontali.
+Il Consiglio del Master ha stabilito che, per il conseguimento del titolo, è richiesta la **presenza dello studente ad almeno il 70%** delle ore complessive di lezioni frontali e di laboratorio.
 
 ### Crediti Formativi Universitari (CFU)
 

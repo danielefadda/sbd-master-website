@@ -3,6 +3,9 @@ layout: didattica
 title: "Didattica 2020-2021"
 permalink: /didattica/20-21
 data_source: didattica_20_21
+header_type: sbd #,hero, base, post, hero,image, splash
+header_img: assets/images/header.svg
+header_title: " "
 ---
 
 Il **Master Big Data** è un master full-time erogato interamente online.
