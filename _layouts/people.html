@@ -31,11 +31,7 @@ layout: default-full
                 <img src="{{ img_src }}" class="card-img-top" alt="{{ display_name }}" style="height: 250px; object-fit: cover;" onerror="this.onerror=null; this.src='/assets/images/docenti/placeholder.png';">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">{{ display_name }}</h5>
-                    {% if page.data_type == 'studenti' %}
-                        {% if person.anno_accademico %}
-                        <p class="card-text"><small class="text-muted">{{ person.anno_accademico }}</small></p>
-                        {% endif %}
-                    {% else %}
+                    {% if page.data_type != 'studenti' %}
                         {% if person.role %}
                         <p class="card-text"><small class="text-muted">{{ person.role }}</small></p>
                         {% endif %}
