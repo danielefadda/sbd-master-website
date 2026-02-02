@@ -1,0 +1,17 @@
+# _data/studenti/studenti_24_25.yml
+# Elenco studenti Master Big Data 2015-2016
+
+- nome: "Davide Bottinelli"
+  anno_accademico: "2015-2016"
+  bio: "Percorso umanistico con laurea in filosofia. Si è avvicinato ai Big Data per integrare le competenze analitiche con la sua formazione teorica."
+  image: "/assets/images/studenti/davide-bottinelli.jpg"
+
+- nome: "Francesco Cappellini"
+  anno_accademico: "2015-2016"
+  bio: "Laureato in diritto dell'impresa e comunicazione interna. Interessato all'intersezione tra giurisprudenza e analisi dei dati."
+  image: "/assets/images/studenti/francesco-cappellini.jpg"
+
+- nome: "Francesco Demo"
+  anno_accademico: "2015-2016"
+  bio: "Background in Economia Aziendale e Management (Ca' Foscari). Focalizzato sull'applicazione della data science ai processi aziendali."
+  image: "/assets/images/studenti/francesco-demo.jpg"

@@ -1,0 +1,15 @@
+# _data/docenti/docenti_25_26.yml
+# Elenco completo docenti Master Big Data 2025-2026
+
+# --- CONSIGLIO DIRETTIVO ---
+- name: "Dino Pedreschi"
+  role: "Direttore del Master"
+  institution: "Università di Pisa"
+  bio: "Pioniere del mobility data mining e social network mining. Coordina il KDD Lab."
+  image: "/assets/images/docenti/pedreschi.png"
+
+- name: "Anna Monreale"
+  role: "Vice-Direttrice"
+  institution: "Università di Pisa"
+  bio: "Esperta di Explainable AI e Privacy-by-design. Ricercatrice del KDD Lab."
+  image: "/assets/images/docenti/Monreale.jpeg"

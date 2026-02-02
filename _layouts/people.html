@@ -13,7 +13,17 @@ layout: default-full
     </div>
 
     <div class="row">
-        {% for person in site.data[page.data_source] %}
+        <!-- Colonna principale -->
+        <div class="col-lg-9 order-2 order-lg-1">
+            <div class="row">
+                {% if page.data_type == 'docenti' %}
+                    {% assign people_data = site.data.docenti[page.data_source] %}
+                {% elsif page.data_type == 'studenti' %}
+                    {% assign people_data = site.data.studenti[page.data_source] %}
+                {% else %}
+                    {% assign people_data = site.data.didattica[page.data_source] %}
+                {% endif %}
+                {% for person in people_data %}
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card h-100 shadow-sm">
                 {% assign img_src = person.image | default: "/assets/images/docenti/placeholder.png" %}
@@ -89,5 +99,39 @@ layout: default-full
             </div>
         </div>
         {% endfor %}
+            </div>
+        </div>
+
+        <!-- Sidebar sticky con menu edizioni -->
+        <div class="col-lg-3 order-1 order-lg-2 mb-4 mb-lg-0">
+            <div class="sidebar-info bg-light p-4 rounded sticky-top" style="top: 60px; z-index: 0;">
+                <h5 class="mb-3">Edizioni</h5>
+                <nav class="nav flex-column">
+                    {% if page.data_type == 'docenti' %}
+                        {% assign editions = site.data.edizioni %}
+                        {% for edizione in editions %}
+                            {% assign docenti_url = '/docenti/' | append: edizione.year | append: '/' %}
+                            <a class="nav-link {% if docenti_url == page.url %}active font-weight-bold{% endif %}" href="{{ docenti_url }}">
+                                {{ edizione.label }}
+                            </a>
+                        {% endfor %}
+                    {% elsif page.data_type == 'studenti' %}
+                        {% assign editions = site.data.edizioni %}
+                        {% for edizione in editions %}
+                            {% assign studenti_url = '/studenti/' | append: edizione.year | append: '/' %}
+                            <a class="nav-link {% if studenti_url == page.url %}active font-weight-bold{% endif %}" href="{{ studenti_url }}">
+                                {{ edizione.label }}
+                            </a>
+                        {% endfor %}
+                    {% else %}
+                        {% for edizione in site.data.edizioni %}
+                        <a class="nav-link {% if edizione.url == page.url %}active font-weight-bold{% endif %}" href="{{ edizione.url }}">
+                            {{ edizione.label }}
+                        </a>
+                        {% endfor %}
+                    {% endif %}
+                </nav>
+            </div>
+        </div>
     </div>
 </main>

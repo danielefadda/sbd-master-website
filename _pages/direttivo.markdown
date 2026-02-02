@@ -12,7 +12,7 @@ header_title: " "
 # Consiglio Direttivo
 
 <div class="direttivo-container">
-  {% assign direzione = site.data.docenti | where_exp: "item", "item.role == 'Direttore del Master' or item.role == 'Vice-Direttrice'" %}
+  {% assign direzione = site.data.docenti.docenti_25_26 | where_exp: "item", "item.role == 'Direttore del Master' or item.role == 'Vice-Direttrice'" %}
   
   {% if direzione.size > 0 %}
   <section class="direzione-section">
@@ -34,7 +34,7 @@ header_title: " "
   </section>
   {% endif %}
 
-  {% assign consiglio = site.data.docenti | where: "role", "Consiglio Direttivo" %}
+  {% assign consiglio = site.data.docenti.docenti_25_26 | where: "role", "Consiglio Direttivo" %}
   
   {% if consiglio.size > 0 %}
   <section class="consiglio-section">
