@@ -10,7 +10,7 @@ subtitle: "Un percorso annuale per diventare Data Scientist"
 # Hero CTA Buttons
 hero_cta:
   - text: "Scopri il Programma"
-    url: "#programma"
+    url: "/didattica/25-26"
     style: "light"
   - text: "Come Iscriversi"
     url: "/iscrizione"

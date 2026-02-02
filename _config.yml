@@ -111,7 +111,7 @@ footer:
     - label: "Facebook"
       icon: "fab fa-facebook"
       url: https://www.facebook.com/sobigdata
-  copyright: "2024 SoBigData Master Projects"
+  copyright: "2026 – SoBigData Master"
 
 sass:
   quiet_deps: true
