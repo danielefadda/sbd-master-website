@@ -20,12 +20,14 @@ layout: default-full
             <!-- Accordion con i corsi -->
             <h3 class="mb-3">Insegnamenti</h3>
             <div class="accordion" id="accordionCorsi">
-                {% for corso in site.data.didattica[page.data_source] %}
+
+                {% assign corsi = site.data.didattica[page.data_source] %}
+                {% for corso in corsi %}
                 <div class="card mb-2">
                     <div class="card-header" id="heading{{ forloop.index }}">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
-                                <strong>{{ corso.title }}</strong>
+                                <h5><strong>{{ corso.title }}</strong></h5>
                                 <span class="badge-sm primary ml-2">{{ corso.credits }} CFU</span>
                                 <span class="badge-sm secondary ml-1">{{ corso.hours }}h</span>
                             </button>
@@ -66,7 +68,7 @@ layout: default-full
                     <div class="card text-center">
                         <div class="card-body">
                             <h5 class="card-title">Totale Corsi</h5>
-                            <p class="display-4">{{ site.data.didattica[page.data_source] | size }}</p>
+                            <p class="display-4">{{ corsi | size }}</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +77,7 @@ layout: default-full
                         <div class="card-body">
                             <h5 class="card-title">Totale CFU</h5>
                             {% assign total_credits = 0 %}
-                            {% for corso in site.data.didattica[page.data_source] %}
+                            {% for corso in corsi %}
                                 {% assign total_credits = total_credits | plus: corso.credits %}
                             {% endfor %}
                             <p class="display-4">{{ total_credits }}</p>
@@ -87,7 +89,7 @@ layout: default-full
                         <div class="card-body">
                             <h5 class="card-title">Totale Ore</h5>
                             {% assign total_hours = 0 %}
-                            {% for corso in site.data.didattica[page.data_source] %}
+                            {% for corso in corsi %}
                                 {% assign total_hours = total_hours | plus: corso.hours %}
                             {% endfor %}
                             <p class="display-4">{{ total_hours }}</p>
