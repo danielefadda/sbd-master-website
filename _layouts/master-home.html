@@ -75,7 +75,7 @@ layout: default-full
   </div>
 </div>
 {% if page.stats %}
-<section class="stats-section py-5 bg-light">
+<section class="stats-section py-4">
     <div class="container">
         <div class="row">
             {% for stat in page.stats %}
@@ -91,27 +91,25 @@ layout: default-full
 </section>
 {% endif %}
 
-<!-- Info Alert Section -->
-{% if page.info_alert %}
-<section class="info-alert-section py-4" style="background-color: #f8f9fa;">
-    <div class="container">
-        <div class="alert alert-{{ page.info_alert.type | default: 'info' }} mb-0">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h3 class="alert-heading">{{ page.info_alert.title }}</h3>
-                    <div>{{ page.info_alert.content | markdownify }}</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-{% endif %}
 
 <!-- Main Content Section -->
 <section id="content" class="content-section py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
+                <!-- Info Alert Section -->
+                {% if page.info_alert %}
+                <section class="info-alert-section">
+                        <div class="alert alert-{{ page.info_alert.type | default: 'info' }} mb-0">
+                            <div class="row">
+                                <div class="col-lg-12 mx-auto">
+                                    <h3 class="alert-heading">{{ page.info_alert.title }}</h3>
+                                    <div>{{ page.info_alert.content | markdownify }}</div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                {% endif %}
                 {{ content }}
 
             <!-- Feature Cards Section -->
