@@ -1,0 +1,16 @@
+<script>
+// Dati delle scadenze generati da _data/scadenze.yml
+const scadenzeData = {
+  scadenze: [
+    {% for item in site.data.scadenze %}
+    {
+      voce: "{{ item.voce }}",
+      data: "{{ item.data | date: '%Y-%m-%d' }}",
+      data_fine: {% if item.data_fine %}"{{ item.data_fine | date: '%Y-%m-%d' }}"{% else %}null{% endif %},
+      data_label: "{{ item.data_label }}",
+      data_fine_label: {% if item.data_fine_label %}"{{ item.data_fine_label }}"{% else %}null{% endif %}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+};
+</script>
