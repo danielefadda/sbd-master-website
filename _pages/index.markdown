@@ -158,7 +158,7 @@ feature_cards:
 # CTA finale
 cta_section:
   title: "Pronto a iniziare?"
-  description: "Scopri come iscriverti al master e inizia il tuo percorso nel mondo dei Big Data e dell'Intelligenza Artificiale"
+  description: "Scopri come iscriverti al master e inizia il tuo percorso nel mondo dei Big Data e dell'Intelligenza Artificiale, Se hai ancora dubbi puoi verificare la tua idoneità con un colloquio orientativo"
   buttons:
     - text: "Guida all'Iscrizione"
       url: "/iscrizione"
