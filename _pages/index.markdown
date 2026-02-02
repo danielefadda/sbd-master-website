@@ -49,7 +49,7 @@ info_alert:
 
 # Sidebar con informazioni rapide
 sidebar:
-  title: "In Breve"
+  title: "Il master in Breve"
   sections:
     - title: "ISCRIZIONI"
       items:

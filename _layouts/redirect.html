@@ -19,6 +19,9 @@
         {% elsif page.data_type == 'direttivo' %}
             {% assign latest_edition = site.data.edizioni[0] %}
             {% assign redirect_url = '/direttivo/' | append: latest_edition.year | append: '/' %}
+        {% elsif page.data_type == 'didattica' %}
+            {% assign latest_edition = site.data.edizioni[0] %}
+            {% assign redirect_url = '/didattica/' | append: latest_edition.year %}
         {% endif %}
         <meta http-equiv="refresh" content="0; url={{ redirect_url | relative_url }}">
         <link rel="canonical" href="{{ redirect_url | relative_url }}">

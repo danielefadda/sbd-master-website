@@ -5,7 +5,9 @@ layout: default-full
 <main class="container-lg pb-3 flex-fill">
     <div class="row pt-4">
         <div class="col-12">
-            <h1 class="mb-4">{{ page.title }}</h1>
+            {% assign year_code = page.data_source | replace: 'docenti_', '' | replace: 'studenti_', '' | replace: '_', '-' %}
+            {% assign matching_edition = site.data.edizioni | where: "year", year_code | first %}
+            <h1 class="mb-4">{{ page.title }}{% if matching_edition %} {{ matching_edition.year_label }}{% endif %}</h1>
             {% if page.description %}
             <p class="lead">{{ page.description }}</p>
             {% endif %}
@@ -14,7 +16,7 @@ layout: default-full
 
     <div class="row">
         <!-- Colonna principale -->
-        <div class="col-lg-9 order-2 order-lg-1">
+        <div class="col-lg-10 order-2 order-lg-1">
             <div class="row">
                 {% if page.data_type == 'docenti' %}
                     {% assign people_data = site.data.docenti[page.data_source] %}
@@ -99,9 +101,9 @@ layout: default-full
         </div>
 
         <!-- Sidebar sticky con menu edizioni -->
-        <div class="col-lg-3 order-1 order-lg-2 mb-4 mb-lg-0">
-            <div class="sidebar-info bg-light p-4 rounded sticky-top" style="top: 60px; z-index: 0;">
-                <h5 class="mb-3">Edizioni</h5>
+        <div class="col-lg-2 order-1 order-lg-2 mb-4 mb-lg-0">
+            <div class="sidebar-info bg-light p-2 rounded sticky-top" style="top: 60px; z-index: 0;text-align: center;">
+                <h5 class="mb-3">- EDIZIONI -</h5>
                 <nav class="nav flex-column">
                     {% if page.data_type == 'docenti' %}
                         {% assign editions = site.data.edizioni %}

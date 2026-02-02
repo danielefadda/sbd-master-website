@@ -110,7 +110,9 @@ layout: default-full
                         </div>
                 </section>
                 {% endif %}
+                <!-- Main Content  -->
                 {{ content }}
+
 
             <!-- Feature Cards Section -->
                 {% if page.feature_cards %}
@@ -145,6 +147,7 @@ layout: default-full
             {% if page.sidebar %}
             <div class="col-lg-3">
                 <div class="sidebar-info bg-light p-4 rounded sticky-top" style="top: 60px; z-index: 0;">
+                    <img src="/assets/images/unipi_right.svg" alt="Università di Pisa" class="img-fluid mb-3">
                     <h4 class="h5 font-weight-bold mb-4">{{ page.sidebar.title }}</h4>
                     
                     {% for section in page.sidebar.sections %}

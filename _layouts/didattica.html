@@ -11,7 +11,7 @@ layout: default-full
 
     <div class="row">
         <!-- Colonna principale -->
-        <div class="col-lg-9 order-2 order-lg-1">
+        <div class="col-lg-10 order-2 order-lg-1">
             <!-- Descrizione -->
             <div class="mb-4">
                 {{ content }}
@@ -25,13 +25,13 @@ layout: default-full
                 {% for corso in corsi %}
                 <div class="card mb-2">
                     <div class="card-header" id="heading{{ forloop.index }}">
-                        <h2 class="mb-0">
+                        <div class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
-                                <h5><strong>{{ corso.title }}</strong></h5>
+                                <div style="height: 100%; vertical-align: middle;"><strong>{{ corso.title }}</strong></div>
                                 <span class="badge-sm primary ml-2">{{ corso.credits }} CFU</span>
                                 <span class="badge-sm secondary ml-1">{{ corso.hours }}h</span>
                             </button>
-                        </h2>
+                        </div>
                     </div>
 
                     <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionCorsi">
@@ -100,9 +100,9 @@ layout: default-full
         </div>
 
         <!-- Sidebar sticky con menu edizioni -->
-        <div class="col-lg-3 order-1 order-lg-2 mb-4 mb-lg-0">
-            <div class="sidebar-info bg-light p-4 rounded sticky-top" style="top: 60px; z-index: 0;">
-                <h5 class="mb-3">Edizioni</h5>
+        <div class="col-lg-2 order-1 order-lg-2 mb-4 mb-lg-0">
+            <div class="sidebar-info bg-light p-2 rounded sticky-top" style="top: 60px; z-index: 0; text-align: center;">
+                <h5 class="mb-3">- EDIZIONI -</h5>
                 <nav class="nav flex-column">
                     {% for edizione in site.data.edizioni %}
                     <a class="nav-link {% if edizione.url == page.url %}active font-weight-bold{% endif %}" href="{{ edizione.url }}">
