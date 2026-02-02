@@ -61,6 +61,12 @@ header_title: " "
       <div class="logo-item">
         <img src="{{ site.baseurl }}/assets/images/cherubino_pant541.png" alt="Cherubino">
       </div>
+      <div class="logo-item">
+        <img src="{{ site.baseurl }}/assets/images/sns.png" alt="Scuola Normale Superiore">
+      </div>
+      <div class="logo-item">
+        <img src="{{ site.baseurl }}/assets/images/sant'anna.jpg" alt="Sant'Anna School of Advanced Studies">
+      </div>
     </div>
   </div>
 </div>
