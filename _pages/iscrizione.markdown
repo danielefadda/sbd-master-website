@@ -2,9 +2,9 @@
 layout: default
 title: Iscrizione 2025 - 2026
 permalink: /iscrizione/
-# header_type: hero #base, post, hero,image, splash
-# header_img: assets/images/header.png
-# header_title: "Iscrizione al Master 2025-2026"
+header_type: sbd #,hero, base, post, hero,image, splash
+header_img: assets/images/header.svg
+header_title: " "
 # vega: true
 ---
 

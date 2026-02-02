@@ -1,10 +1,13 @@
 ---
 layout: default
 title: "Partner"
-subtitle: "I nostri partner attuali e passati"
 permalink: /partner/
 partner: false
 show_sidetoc: false
+header_type: sbd #,hero, base, post, hero,image, splash
+header_img: assets/images/header.svg
+header_title: " "
+
 ---
 
 # I nostri Partner

@@ -3,6 +3,9 @@ layout: default
 title: "Progetti"
 permalink: /progetti/
 show_sidetoc: false
+header_type: sbd #,hero, base, post, hero,image, splash
+header_img: assets/images/header.svg
+header_title: " "
 ---
 
 # Progetti del Master

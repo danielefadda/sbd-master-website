@@ -3,6 +3,9 @@ layout: didattica
 title: "Didattica 2025-2026"
 permalink: /didattica/25-26
 data_source: didattica_25_26
+header_type: sbd #,hero, base, post, hero,image, splash
+header_img: assets/images/header.svg
+header_title: " "
 ---
 
 Il **Master Big Data** è un master full-time erogato interamente online che avrà durata di un anno a partire da Novembre. L'attività didattica prevede due fasi principali:
