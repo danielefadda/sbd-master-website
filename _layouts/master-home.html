@@ -103,8 +103,20 @@ layout: default-full
                         <div class="alert alert-{{ page.info_alert.type | default: 'info' }} mb-0">
                             <div class="row">
                                 <div class="col-lg-12 mx-auto">
-                                    <h3 class="alert-heading">{{ page.info_alert.title }}</h3>
-                                    <div>{{ page.info_alert.content | markdownify }}</div>
+                                    {% assign iscrizioni = site.data.master_info.scadenze | where: "voce", "Iscrizioni" | first %}
+                                    {% assign lezioni = site.data.master_info.scadenze | where: "voce", "Lezioni" | first %}
+                                    {% assign tirocinio = site.data.master_info.scadenze | where: "voce", "Tirocinio" | first %}
+                                    <h3 class="alert-heading">Informazioni Edizione {{ site.data.master_info.edizione }}</h3>
+                                    <div>
+                                        <p>
+                                            <strong>Modalità:</strong> {{ site.data.master_info.info_generali.modalita }}<br>
+                                            <strong>Orario:</strong> {{ site.data.master_info.info_generali.orario }}<br>
+                                            <strong>Lezioni:</strong> {{ lezioni.data | date: "%d/%m/%y" }} - {{ lezioni.data_fine | date: "%d/%m/%y" }}<br>
+                                            <strong>Tirocinio:</strong> {{ tirocinio.data | date: "%d/%m/%y" }} - {{ tirocinio.data_fine | date: "%d/%m/%y" }}<br>
+                                            <strong>Chiusura Iscrizioni:</strong> {{ iscrizioni.data_fine | date: "%d/%m/%y" }}
+                                        </p>
+                                        <p><em>Pause per periodo Natalizio e festività secondo il calendario accademico Unipi.</em></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -144,33 +156,15 @@ layout: default-full
             </div>
             
             <!-- Sidebar -->
-            {% if page.sidebar %}
             <div class="col-lg-3">
                 <div class="sidebar-info bg-light p-4 rounded sticky-top" style="top: 60px; z-index: 0;">
                     <img src="/assets/images/unipi_right.svg" alt="Università di Pisa" class="img-fluid mb-3">
-                    <h4 class="h5 font-weight-bold mb-4">{{ page.sidebar.title }}</h4>
-                    
-                    {% for section in page.sidebar.sections %}
-                    <div class="mb-4">
-                        <h5 class="h6 font-weight-bold text-uppercase mb-3" >{{ section.title }}</h5>
-                        {% for item in section.items %}
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="fa fa-{{ item.icon }} mr-2 mt-1" style="color: #667eea;"></i>
-                            <div class="small">
-                                <strong>{{ item.label }}:</strong> 
-                                {% if item.link %}
-                                <a href="{{ item.link }}">{{ item.value }}</a>
-                                {% else %}
-                                {{ item.value }}
-                                {% endif %}
-                            </div>
-                        </div>
-                        {% endfor %}
+                    <div id="dynamic-sidebar">
+                        <p><em>Caricamento...</em></p>
                     </div>
-                    {% endfor %}
                 </div>
+                <script src="/assets/js/sidebar-home.js"></script>
             </div>
-            {% endif %}
         </div>
     </div>
 </section>

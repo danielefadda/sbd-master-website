@@ -1,12 +1,12 @@
 // Variabile globale che conterrà i dati
-let scadenzeData = null;
+let masterData = null;
 
 // Carica i dati dal JSON
-fetch('/assets/data/scadenze.json')
+fetch('/assets/data/master-info.json')
   .then(response => response.json())
   .then(data => {
-    scadenzeData = data;
-    console.log('Dati scadenze caricati:', scadenzeData);
+    masterData = data;
+    console.log('Dati master caricati:', masterData);
     // Aggiorna tutto una volta caricati i dati
     updateStatusIscrizioni();
     updateRiepilogoScadenze();
@@ -34,14 +34,14 @@ function getStatoScadenza(startDate, endDate) {
 }
 
 function updateStatusIscrizioni() {
-  if (!scadenzeData) {
+  if (!masterData) {
     console.warn('Dati non ancora caricati per updateStatusIscrizioni');
     return;
   }
 
   const now = new Date().getTime();
   //const now = new Date('2025-07-22').getTime();
-  const iscrizioni = scadenzeData.scadenze[0];
+  const iscrizioni = masterData.scadenze[0];
   const startDate = new Date(iscrizioni.data).getTime();
   const endDate = new Date(iscrizioni.data_fine).getTime();
 
@@ -76,7 +76,7 @@ function updateStatusIscrizioni() {
 }
 
 function updateRiepilogoScadenze() {
-  if (!scadenzeData) {
+  if (!masterData) {
     console.warn('Dati non ancora caricati per updateRiepilogoScadenze');
     return;
   }
@@ -96,7 +96,7 @@ function updateRiepilogoScadenze() {
       <tbody>
   `;
 
-  scadenzeData.scadenze.forEach(item => {
+  masterData.scadenze.forEach(item => {
     const stato = getStatoScadenza(item.data, item.data_fine);
     const dataRange = item.data_fine_label 
       ? `${item.data_label} – ${item.data_fine_label}`
@@ -124,7 +124,7 @@ function updateRiepilogoScadenze() {
 }
 
 function updateDateImportanti() {
-  if (!scadenzeData) {
+  if (!masterData) {
     console.warn('Dati non ancora caricati per updateDateImportanti');
     return;
   }
@@ -135,8 +135,8 @@ function updateDateImportanti() {
     return;
   }
 
-  const iscrizioni = scadenzeData.scadenze[0];
-  const inizioLezioni = scadenzeData.scadenze[2];
+  const iscrizioni = masterData.scadenze[0];
+  const inizioLezioni = masterData.scadenze[2];
 
   const html = `
     <ul>
@@ -151,7 +151,7 @@ function updateDateImportanti() {
 }
 
 function updateScadenzaUditori() {
-  if (!scadenzeData) {
+  if (!masterData) {
     console.warn('Dati non ancora caricati per updateScadenzaUditori');
     return;
   }
@@ -162,12 +162,12 @@ function updateScadenzaUditori() {
     return;
   }
 
-  const iscrzioneUditori = scadenzeData.scadenze[3]; // Elemento "Iscrizione Uditori"
+  const iscrzioneUditori = masterData.scadenze[3]; // Elemento "Iscrizione Uditori"
   uditorElement.textContent = iscrzioneUditori.data_label;
 }
 
 function updateRateTable() {
-  if (!scadenzeData) {
+  if (!masterData) {
     console.warn('Dati non ancora caricati per updateRateTable');
     return;
   }
@@ -179,7 +179,7 @@ function updateRateTable() {
   }
 
   // Filtra solo gli elementi che hanno il campo numero_rata
-  const rate = scadenzeData.scadenze.filter(item => item.numero_rata);
+  const rate = masterData.scadenze.filter(item => item.numero_rata);
 
   // Calcola il totale
   const totale = rate.reduce((sum, item) => sum + parseFloat(item.importo.replace('.', '').replace(',', '.')), 0);
@@ -198,7 +198,7 @@ function updateRateTable() {
 }
 
 function updateDataInizioLezioni() {
-  if (!scadenzeData) {
+  if (!masterData) {
     console.warn('Dati non ancora caricati per updateDataInizioLezioni');
     return;
   }
@@ -209,12 +209,12 @@ function updateDataInizioLezioni() {
     return;
   }
 
-  const inizioLezioni = scadenzeData.scadenze[2]; // Elemento "Inizio Lezioni"
+  const inizioLezioni = masterData.scadenze[2]; // Elemento "Inizio Lezioni"
   inizioElement.textContent = inizioLezioni.data_label;
 }
 
 function updateDataAperturaProcedura() {
-  if (!scadenzeData) {
+  if (!masterData) {
     console.warn('Dati non ancora caricati per updateDataAperturaProcedura');
     return;
   }
@@ -236,7 +236,7 @@ function updateDataAperturaProcedura() {
     return;
   }
 
-  const iscrizioni = scadenzeData.scadenze[0]; // Elemento "Iscrizioni"
+  const iscrizioni = masterData.scadenze[0]; // Elemento "Iscrizioni"
   aperturaElement.textContent = iscrizioni.data_label;
   chiusuraElement.textContent = iscrizioni.data_fine_label;
   scadenzaDocumentiElement.textContent = iscrizioni.data_fine_label;

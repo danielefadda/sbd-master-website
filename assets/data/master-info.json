@@ -1,0 +1,30 @@
+---
+---
+{
+  "edizione": "{{ site.data.master_info.edizione }}",
+  "info_generali": {
+    "modalita": "{{ site.data.master_info.info_generali.modalita }}",
+    "orario": "{{ site.data.master_info.info_generali.orario }}",
+    "lingua": "{{ site.data.master_info.info_generali.lingua }}",
+    "crediti": {{ site.data.master_info.info_generali.crediti }},
+    "ore_lezione": {{ site.data.master_info.info_generali.ore_lezione }},
+    "ore_tirocinio": {{ site.data.master_info.info_generali.ore_tirocinio }},
+    "costo_totale": {{ site.data.master_info.info_generali.costo_totale }},
+    "num_partecipanti": {{ site.data.master_info.info_generali.num_partecipanti }},
+    "num_uditori": {{ site.data.master_info.info_generali.num_uditori }}
+  },
+  "scadenze": [
+    {% for item in site.data.master_info.scadenze %}
+    {
+      "voce": "{{ item.voce }}",
+      "data": "{{ item.data }}",
+      "data_fine": {% if item.data_fine %}"{{ item.data_fine }}"{% else %}null{% endif %},
+      "data_label": "{{ item.data_label }}",
+      "data_fine_label": {% if item.data_fine_label %}"{{ item.data_fine_label }}"{% else %}null{% endif %},
+      "numero_rata": {% if item.numero_rata %}{{ item.numero_rata }}{% else %}null{% endif %},
+      "importo": {% if item.importo %}"{{ item.importo }}"{% else %}null{% endif %}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "sidebar": {{ site.data.master_info.sidebar | jsonify }}
+}
