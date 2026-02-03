@@ -37,7 +37,7 @@ layout: default-full
                     <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionCorsi">
                         <div class="card-body">
                             {% if corso.area %}
-                            <p><strong>Area:</strong> <span class="badge-sm info">{{ corso.area }}</span></p>
+                            <p><strong>Area:</strong> {{ corso.area }}</p>
                             {% endif %}
                             
                             {% if corso.instructors %}
