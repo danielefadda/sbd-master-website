@@ -85,7 +85,7 @@ function updateRiepilogoScadenze() {
   if (!tableContainer) return;
 
   let tableHTML = `
-    <table style="width: 100%; box-sizing: border-box; display: block;">
+    <table style="width: 100%; box-sizing: border-box; display: table;">
       <thead>
         <tr>
           <th>Fase / Voce</th>

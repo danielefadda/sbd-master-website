@@ -2,8 +2,6 @@
 layout: default-full
 ---
 
-{% include custom/sbd-header-styles.html %}
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 
@@ -71,13 +69,16 @@ layout: default-full
     </div>
   </div>
 </div>
-{% if page.stats %}
+
+
+{% if site.data.master_info.stats %}
+{% assign colors = "#ea898c,#fcb088,#f1d671,#adcd6b,#71aae8,#9585b3" | split: "," %}
 <section class="stats-section py-4">
     <div class="container">
         <div class="row">
-            {% for stat in page.stats %}
+            {% for stat in site.data.master_info.stats %}
             <div class="col-4 col-md-4 mb-3">
-                <div class="stat-card text-center p-3 h-100 rounded" style="background-color: {{ stat.color }}; color: {{ stat.text_color | default: '#000' }};">
+                <div class="stat-card text-center p-3 h-100 rounded" style="background-color: {{ colors[forloop.index0] }}; color: #000;">
                     <div class="stat-label font-weight-bold" style="font-size: 1.1rem;">{{ stat.label }}</div>
                     <div class="stat-value font-weight-bold mt-2" style="font-size: 2rem;">{{ stat.value }}</div>
                 </div>
@@ -95,9 +96,8 @@ layout: default-full
         <div class="row">
             <div class="col-lg-9">
                 <!-- Info Alert Section -->
-                {% if page.info_alert %}
                 <section class="info-alert-section">
-                        <div class="alert alert-{{ page.info_alert.type | default: 'info' }} mb-0">
+                        <div class="alert alert-primary mb-0">
                             <div class="row">
                                 <div class="col-lg-12 mx-auto">
                                     {% assign iscrizioni = site.data.master_info.scadenze | where: "voce", "Iscrizioni" | first %}
@@ -118,38 +118,102 @@ layout: default-full
                             </div>
                         </div>
                 </section>
-                {% endif %}
                 <!-- Main Content  -->
-                {{ content }}
+                <div class="master-intro-section lead my-4">
+                    <p>Il <strong>Master in Big Data Analytics and Artificial Intelligence for Society dell'Università di Pisa</strong> è un percorso <strong>annuale</strong> per diventare <strong>data scientist</strong>.</p>
+                    <p>Rivolto ai laureati magistrali di tutte le discipline, fornisce gli strumenti per lavorare nel campo dell'analisi dati in <strong>tutti i settori</strong>, dall'azienda alla ricerca.</p>
+                </div>
 
 
             <!-- Feature Cards Section -->
-                {% if page.feature_cards %}
                 <section class="features-section py-5 bg-light">
                     <div class="container">
-                        {% if page.feature_cards.title %}
-                        <h2 class="text-center mb-5">{{ page.feature_cards.title }}</h2>
-                        {% endif %}
+                        <h2 class="text-center mb-5">Perché scegliere questo Master</h2>
                         <div class="row">
-                            {% for card in page.feature_cards.items %}
                             <div class="col-md-6 col-lg-4 mb-4">
                                 <div class="card h-100 border-0 shadow-sm">
                                     <div class="card-body">
-                                        {% if card.icon %}
                                         <div class="mb-3">
-                                            <i class="fa fa-{{ card.icon }} fa-2x" style="color: #667eea;"></i>
+                                            <i class="fa fa-graduation-cap fa-2x" style="color: #667eea;"></i>
                                         </div>
-                                        {% endif %}
-                                        <h5 class="card-title font-weight-bold">{{ card.title }}</h5>
-                                        <div class="card-text">{{ card.content | markdownify }}</div>
+                                        <h5 class="card-title font-weight-bold">Master di Secondo Livello</h5>
+                                        <div class="card-text"><p>Il Master in Big Data Analytics and Artificial Intelligence for Society dell'Università di Pisa è un master di secondo livello, dedicato a chi è in possesso di una laurea magistrale. Il percorso dura un anno e ha l'obiettivo di formare nuovi Data Scientist e AI Specialist.</p></div>
                                     </div>
                                 </div>
                             </div>
-                            {% endfor %}
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="mb-3">
+                                            <i class="fa fa-users fa-2x" style="color: #667eea;"></i>
+                                        </div>
+                                        <h5 class="card-title font-weight-bold">Aperto a Tutti i Settori</h5>
+                                        <div class="card-text"><p>Il Master è rivolto ai laureati magistrali di tutte le discipline e fornisce le competenze e gli strumenti per lavorare nel campo dell'analisi dei dati e AI in tutti i settori dell'azienda e della ricerca. Pensato anche per chi già lavora.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="mb-3">
+                                            <i class="fa fa-laptop-code fa-2x" style="color: #667eea;"></i>
+                                        </div>
+                                        <h5 class="card-title font-weight-bold">Teoria e Pratica</h5>
+                                        <div class="card-text"><p>Il Master eroga lezioni teoriche ma con una forte componente pratica che sfocia nella realizzazione di un progetto completo di data analysis. Nella seconda parte del corso, tirocini presso aziende e istituzioni partner.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="mb-3">
+                                            <i class="fa fa-eye fa-2x" style="color: #667eea;"></i>
+                                        </div>
+                                        <h5 class="card-title font-weight-bold">Visione Completa</h5>
+                                        <div class="card-text"><p>Il Master non è focalizzato su una precisa applicazione, ma spazia dall'economia alla salute, permettendo allo studente di specializzarsi nel settore che preferisce, in base al percorso formativo pregresso.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="mb-3">
+                                            <i class="fa fa-book fa-2x" style="color: #667eea;"></i>
+                                        </div>
+                                        <h5 class="card-title font-weight-bold">Competenze Teoriche</h5>
+                                        <div class="card-text"><ul>
+<li>Machine Learning</li>
+<li>Deep Neural Network</li>
+<li>Information Retrieval</li>
+<li>Data Management Systems</li>
+<li>Text Analytics</li>
+<li>Time Series Analysis</li>
+</ul></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="mb-3">
+                                            <i class="fa fa-code fa-2x" style="color: #667eea;"></i>
+                                        </div>
+                                        <h5 class="card-title font-weight-bold">Competenze Tecniche</h5>
+                                        <div class="card-text"><ul>
+<li>Scikit-learn</li>
+<li>Tensorflow</li>
+<li>Elastic Search</li>
+<li>PowerBI</li>
+<li>NLTK</li>
+<li>Selenium</li>
+<li>NetworkX</li>
+</ul></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
-                {% endif %}
             </div>
             
             <!-- Sidebar -->
@@ -169,25 +233,20 @@ layout: default-full
 
 
 <!-- CTA Section -->
-{% if page.cta_section %}
 <section class="cta-section py-5" style="background-color: #667eea; color: white;">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <h3 class="mb-4">{{ page.cta_section.title }}</h3>
-                <p class="lead mb-4">{{ page.cta_section.description }}</p>
-                {% if page.cta_section.buttons %}
+                <h3 class="mb-4">Pronto a iniziare?</h3>
+                <p class="lead mb-4">Scopri come iscriverti al master e inizia il tuo percorso nel mondo dei Big Data e dell'Intelligenza Artificiale, Se hai ancora dubbi puoi verificare la tua idoneità con un colloquio orientativo</p>
                 <div class="d-flex justify-content-center flex-wrap">
-                    {% for button in page.cta_section.buttons %}
-                    <a href="{{ button.url | relative_url }}" class="btn btn-{{ button.style }} btn-lg mx-2 mb-2">{{ button.text }}</a>
-                    {% endfor %}
+                    <a href="/iscrizione" class="btn btn-light btn-lg mx-2 mb-2">Guida all'Iscrizione</a>
+                    <a href="/contatti" class="btn btn-outline-light btn-lg mx-2 mb-2">Contattaci</a>
                 </div>
-                {% endif %}
             </div>
         </div>
     </div>
 </section>
-{% endif %}
 
 <style>
 .stat-card {

@@ -6,11 +6,16 @@ header_type: sbd #,hero, base, post, hero,image, splash
 header_img: assets/images/header.svg
 header_title: " "
 # vega: true
+# show_toc: true
 ---
 
 # Iscrizione al Master 2025-2026
 
-<div class="lead">Il Master in Big Data Analytics and Artificial Intelligence for Society dell'Università di Pisa è un <strong>master di secondo livello</strong> rivolto a laureati magistrali di tutte le discipline.</div>
+<div class="lead"><img src="/assets/images/unipi_right.svg" alt="Università di Pisa" class="img-fluid mb-3 ml-4" style="float: right; max-width: 200px;">Il Master in Big Data Analytics and Artificial Intelligence for Society dell'Università di Pisa è un <strong>master di secondo livello</strong> rivolto a laureati magistrali di tutte le discipline.</div>
+
+<div>
+
+</div>
 
 <div id="stato-iscrizioni">
   <div style="background: #f8f9fa; border-left: 4px solid #07286E; padding: 20px; margin: 20px 0;">
@@ -61,7 +66,7 @@ Tutti i documenti sopra-indicati necessari per l'eventuale selezione devono esse
 **Master in Big Data Analytics and Artificial Intelligence for SocietyDipartimento di InformaticaLargo Pontecorvo, 356127 Pisa**
 
 <div style="background: #f0f8ff; border-left: 4px solid #0066cc; padding: 20px; margin: 25px 0; border-radius: 4px;">
-  <h4 style="margin-top: 0; color: #0066cc;">📋 Check-list Documentazione</h4>
+  <h4 style="margin-top: 0; color: #0066cc;">Check-list Documentazione per l'Iscrizione</h4>
   <ul style="list-style-type: none; padding-left: 0;">
     <li style="margin: 10px 0;">☐ <strong>CV firmato:</strong> Con data di nascita, dettaglio titolo di studio, voto e Ateneo.</li>
     <li style="margin: 10px 0;">☐ <strong>Documento d'identità:</strong> Copia in corso di validità.</li>
@@ -90,7 +95,7 @@ Sono ammessi al Master con riserva coloro che conseguiranno il titolo di studio 
 
 Alla scadenza delle procedure di immatricolazione, nel caso che non sia stato coperto il numero massimo dei posti previsti, il Consiglio del master potrà disporre, per una sola volta, un nuovo termine per accogliere, in ordine cronologico, ulteriori richieste d'immatricolazione di candidati in possesso dei requisiti richiesti. Tale termine deve essere individuato nel rispetto della possibilità di maturare la frequenza obbligatoria prevista (art.7 comma 6 del Regolamento sui master).
 
-A tale riguardo sarà pubblicato, sul sito dell’Ateneo [https://www.unipi.it/index.php/master](https://www.unipi.it/index.php/master), alla pagina web del master, un avviso con il quale sarà resa nota la rimanente disponibilità dei posti e saranno comunicati il termine e gli adempimenti necessari per l’immatricolazione.
+A tale riguardo sarà pubblicato,  [sul sito dell’Ateneo, alla pagina web del master](https://www.unipi.it/index.php/master), un avviso con il quale sarà resa nota la rimanente disponibilità dei posti e saranno comunicati il termine e gli adempimenti necessari per l’immatricolazione.
 
 ### Agevolazioni
 
@@ -134,10 +139,10 @@ Contribuzione per Studente "uditore/didattica a distanza"
 
 Per chiedere di partecipare come Uditori occorre [compilare il modulo](https://masterbigdata.it/iscrizione-uditori).
 
+---
 
-
-<h1> Riepilogo Scadenze</h1>
-<br>
+<h1>Riepilogo Scadenze ed eventi</h1>
+<p>Di seguito è riportato uno schema con le principali scadenze relative al processo di iscrizione al Master e gli eventi principali per l'anno accademico in corso.</p>
 <div id="riepilogo-scadenze"></div>
 
 <script src="/assets/js/status-iscrizioni.js"></script>

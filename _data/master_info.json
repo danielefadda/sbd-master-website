@@ -1,5 +1,31 @@
 {
   "edizione": "2025-2026",
+  "stats": [
+    {
+      "label": "Edizioni Master",
+      "value": "12"
+    },
+    {
+      "label": "Studenti Laureati",
+      "value": "272"
+    },
+    {
+      "label": "Percentuale Assunti",
+      "value": "97%"
+    },
+    {
+      "label": "Tempo Medio Assunzione",
+      "value": "1.5 mesi"
+    },
+    {
+      "label": "Aziende Partner",
+      "value": "54"
+    },
+    {
+      "label": "Progetti Realizzati",
+      "value": "56"
+    }
+  ],
   "info_generali": {
     "modalita": "Online (MS Teams)",
     "orario": "Mer-Ven 16-20, Sab 9-13",
