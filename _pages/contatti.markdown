@@ -17,7 +17,7 @@ header_title: " "
   <div class="contact-info">
     <h5>Master Big Data Analytics & Artificial Intelligence for Society</h5>
     <div class="lead mt-4">
-      <img src="/assets/images/unipi_right.svg" alt="Università di Pisa" class="img-fluid mb-4" style="max-width: 200px; margin-left: 0px ">
+      <img src="/assets/images/unipi_right.svg" alt="Università di Pisa" class="img-fluid mb-4" style="width: 205px; margin-left: 0px ">
         <div class="contact-details">
           <div class="contact-item">
             <i class="fas fa-building"></i>
@@ -51,12 +51,12 @@ header_title: " "
   </div>
 
   <div class="contact-info mt-4 lead" style="background-color: #fff;">
-  <p>Per maggiori informazioni o per richiedere un colloquio orientativo contattaci.</p>
+  <p>Contattaci per maggiori informazioni o per richiedere un colloquio orientativo</p>
   </div>
 </div>
 
 <div class="logos-section">
-  <h5>Partner Istituzionali</h5>
+  <h5 class="mb-5">Partner Istituzionali</h5>
   <div class="logos-grid">
     <div class="logo-item">
       <img src="{{ site.baseurl }}/assets/images/CNR.png" alt="CNR - Consiglio Nazionale delle Ricerche">
