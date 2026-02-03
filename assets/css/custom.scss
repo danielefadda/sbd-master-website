@@ -811,6 +811,39 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-chulapa .dropdown-menu .dropdown-item:hover, .navbar-chulapa .dropdown-menu .dropdown-item:focus {
     color: #de1f36;
 }
+.navbar-brand {
+    text-transform: none !important;
+    text-decoration: none !important;
+}
+.navbar-brand:hover {
+  text-decoration: underline !important;
+}
+
+// Force hamburger menu below 1270px
+@media (max-width: 1270px) {
+  // Hide desktop navbar below 1270px
+  .navbar.navbar-chulapa.d-none {
+    display: none !important;
+  }
+  
+  // Show fab menu below 1270px
+  .navbar-chulapa-fab {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1271px) {
+  // Hide fab menu above 1271px
+  .navbar-chulapa-fab {
+    display: none !important;
+  }
+  
+  // Show desktop navbar above 1271px
+  .navbar.navbar-chulapa {
+    display: block !important;
+  }
+}
+
 // SBD Header customization
 body.sbd-header {
   .hero-chulapa-image {

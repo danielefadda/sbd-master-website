@@ -4,8 +4,8 @@
 # which you are expected to set up once and rarely edit after that.
 
 # Site settings
-title: "Sobigdata Master"
-subtitle: "Master in Big Data Analytics & AI for Society"
+title: "Master in Big Data Analytics & AI for Society"
+subtitle: "SoBigData Master - Università di Pisa"
 email: masterbigdata@unipi.it
 description: >-
   Il Master in Big Data Analytics and Artificial Intelligence for Society dell'Università di Pisa è un percorso annuale per diventare data scientist
@@ -15,7 +15,7 @@ description: >-
 navbar:
   style: dual
   brand:
-    title: "Sobigdata Master"
+    title: "Master in Big Data Analytics & AI for Society"
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
