@@ -432,7 +432,7 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
 // ====== CONTACT SECTION STYLES ======
 .contact-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
   margin: 40px 0;
   align-items: start;
@@ -514,8 +514,8 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
 
 .logos-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 
 .logo-item {
