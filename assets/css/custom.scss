@@ -92,6 +92,51 @@
   }
 }
 
+// Vanta Header Styles
+#vanta-header {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100vw - 8px);
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+#vanta-header canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0;
+}
+
+#vanta-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.7) 0%, rgba(118, 75, 162, 0.7) 100%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+#vanta-header-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 15px;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
 // badges with big numbers and description using grid:
 .badge-container {
   display: grid;
