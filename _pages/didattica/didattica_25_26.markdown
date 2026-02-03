@@ -19,6 +19,48 @@ L'attività didattica settimanale durante la prima fase prevede alcune ore di le
 
 Il Consiglio del Master ha stabilito che, per il conseguimento del titolo, è richiesta la **presenza dello studente ad almeno il 70%** delle ore complessive di lezioni frontali e di laboratorio.
 
+<div class="table-didattica">
+    <table>
+        <thead>
+            <tr>
+                <th class="time-col">dalle</th>
+                <th class="time-col">alle</th>
+                <th>Lunedì</th>
+                <th>Martedì</th>
+                <th>Mercoledì</th>
+                <th>Giovedì</th>
+                <th>Venerdì</th>
+                <th>Sabato</th>
+                <th>Domenica</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00</td>
+                <td>13:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="lecture">Lezione</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>16:00</td>
+                <td>20:00</td>
+                <td></td>
+                <td class="exam-day">Esami</td>
+                <td class="lecture">Lezione</td>
+                <td class="lecture">Lezione</td>
+                <td class="lecture">Lezione</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 ### Crediti Formativi Universitari (CFU)
 
 Il Credito Formativo Universitario (CFU) è l'unità di misura del volume di lavoro di apprendimento, richiesto ad un allievo in possesso di adeguata preparazione iniziale, per l'acquisizione di conoscenze ed abilità richieste da una certa attività formativa. 

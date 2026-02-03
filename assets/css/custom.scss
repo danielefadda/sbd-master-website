@@ -30,6 +30,41 @@
     z-index: 98;
 }
 
+// Table didattica styles
+.table-didattica {
+    table {
+        display: table;
+        border-collapse: collapse;
+        width: 100%;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    th, td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        height: 40px;
+    }
+
+    th {
+        background-color: #07286E;
+        font-weight: bold;
+    }
+
+    .exam-day {
+        background-color: #fff4d1; /* Giallo chiaro */
+    }
+
+    .lecture {
+        background-color: #d9e7f4; /* Blu/Azzurro chiaro */
+    }
+
+    .time-col {
+        width: 80px;
+    }
+}
+
 // card container:
 .card-container {
   display: flex;
