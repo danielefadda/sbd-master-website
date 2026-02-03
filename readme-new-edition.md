@@ -1,6 +1,22 @@
-# Guida: Aggiungere una Nuova Edizione del Master (2026-2027)
+# Guida: Aggiungere una Nuova Edizione del Master
 
-Questa guida descrive dettagliatamente tutti i file che devono essere creati e modificati per aggiungere una nuova edizione del Master Big Data (anno accademico 2026-2027).
+Questa guida descrive dettagliatamente tutti i file che devono essere creati e modificati per aggiungere una nuova edizione del Master Big Data.
+
+## Aggiornamenti Recenti (Febbraio 2026)
+
+### Pulizia Repository
+Il repository è stato ripulito rimuovendo contenuti obsoleti e non utilizzati:
+- **Pagine eliminate**: `bootstrap.markdown`, `installation.markdown`, `jekyll-ssg.markdown`, `kramdown.markdown`, `markdown.markdown`, `obiettivi.markdown`, `single.markdown`
+- **Componenti HTML eliminate**: Diversi componenti custom non più utilizzati (`big-numbers.html`, `code-explanation.html`, `img-selector.html`, `modal-component-intro.html`, `modal-component-mappa.html`, etc.)
+- **Snippet eliminati**: Frammenti non essenziali di documentazione e sezioni dedicate a contenuti storici
+
+### Miglioramenti Recenti
+- **Evento Inaugurazione**: Aggiunta della sezione "Evento Inaugurazione" alla home page del master con schedule dettagliato
+- **Sezione Status**: Implementazione della funzione `getStatoScadenza()` per visualizzare dinamicamente lo stato delle scadenze di iscrizione
+- **Styling Ottimizzato**: Miglioramenti di responsive design per la sezione contatti, evento e footer
+- **Deadlines Dinamiche**: Aggiunta del sistema dinamico per la gestione delle scadenze di iscrizione (campo `scadenze` in `_data/master_info.json`)
+- **Navbar Responsiva**: Migliorato il design della navbar per una migliore visualizzazione su dispositivi mobile
+- **Pagine Consiglio Direttivo**: Aggiunte pagine dedicate al consiglio direttivo per ogni edizione del master (layout `direttivo`)
 
 ## Indice
 1. [File di Configurazione Edizioni](#1-file-di-configurazione-edizioni)
@@ -10,8 +26,9 @@ Questa guida descrive dettagliatamente tutti i file che devono essere creati e m
 5. [Pagina Studenti](#5-pagina-studenti)
 6. [File dei Dati Docenti](#6-file-dei-dati-docenti)
 7. [Pagine Docenti e Direttivo](#7-pagine-docenti-e-direttivo)
-8. [Aggiornamento Informazioni Generali](#8-aggiornamento-informazioni-generali)
-9. [Checklist Finale](#checklist-finale)
+8. [Aggiornamento delle Scadenze Importanti](#9-aggiornamento-delle-scadenze-importanti)
+9. [Aggiornamento Informazioni Generali](#8-aggiornamento-informazioni-generali)
+10. [Checklist Finale](#10-checklist-finale)
 
 ---
 
@@ -277,8 +294,6 @@ description: "Gli studenti del Master in Big Data Analytics provengono da percor
 
 ---File dei Dati Docenti
 
-### File: `_data/docenti/docenti_26_27.yml`
-
 **Percorso**: `_data/docenti/docenti_26_27.yml`
 
 **Cosa fare**: Creare un nuovo file YAML contenente tutti i docenti dell'edizione 2026-2027, sia il **Consiglio Direttivo** che i **Docenti e Ricercatori**.
@@ -372,6 +387,8 @@ description: "Gli studenti del Master in Big Data Analytics provengono da percor
 
 ## 7. Pagine Docenti e Direttivo
 
+### File: `_pages/docenti/docenti_26_27.markdown` e `_pages/direttivo/direttivo_26_27.markdown`
+
 ### 7.1 Pagina Docenti
 
 **File**: `_pages/docenti/docenti_26_27.markdown`
@@ -436,9 +453,69 @@ data_source: docenti_26_27
 
 ---
 
-## 8. 
+## 9. Aggiornamento delle Scadenze Importanti
 
-## 6. Aggiornamento Informazioni Generali
+### File: `_data/master_info.json`
+
+**Percorso**: `_data/master_info.json`
+
+**Cosa fare**: Aggiornare il campo `scadenze` con le date importanti per la nuova edizione.
+
+**Struttura di una scadenza**:
+```json
+{
+  "voce": "Iscrizioni",
+  "data": "2026-07-20",
+  "data_fine": "2026-10-15",
+  "data_label": "20 Luglio 2026",
+  "data_fine_label": "15 Ottobre 2026",
+  "numero_rata": null,
+  "importo": null
+}
+```
+
+**Campi disponibili**:
+- `voce` (obbligatorio): Descrizione della scadenza (es. "Iscrizioni", "Pagamento Rata 1", "Lezioni")
+- `data` (obbligatorio): Data di inizio in formato YYYY-MM-DD
+- `data_fine` (opzionale): Data di fine in formato YYYY-MM-DD (se applicabile)
+- `data_label` (obbligatorio): Label visualizzato (es. "20 Luglio 2026")
+- `data_fine_label` (opzionale): Label per la data di fine
+- `numero_rata` (opzionale): Numero della rata (per pagamenti rateali)
+- `importo` (opzionale): Importo della rata in euro (es. "900")
+
+**Scadenze tipiche per una nuova edizione** (esempio per 2026-2027):
+```json
+{
+  "voce": "Iscrizioni",
+  "data": "2026-07-20",
+  "data_fine": "2026-10-15",
+  "data_label": "20 Luglio 2026",
+  "data_fine_label": "15 Ottobre 2026"
+},
+{
+  "voce": "Pagamento Rata 1 (1.800 €)",
+  "data": "2026-11-03",
+  "data_label": "03 Novembre 2026",
+  "numero_rata": 1,
+  "importo": "1800"
+},
+{
+  "voce": "Lezioni",
+  "data": "2026-11-13",
+  "data_fine": "2027-07-31",
+  "data_label": "13 Novembre 2026",
+  "data_fine_label": "31 Luglio 2027"
+}
+```
+
+**Note importanti**:
+- Le scadenze sono visualizzate nella pagina di iscrizione (`contatti.markdown`)
+- La funzione `getStatoScadenza()` determina automaticamente lo stato di una scadenza (aperta, chiusa, prossima)
+- Mantenere coerenza tra le date nel file master_info.json e quelle comunicate ufficialmente
+
+---
+
+## 8. Aggiornamento Informazioni Generali
 
 ### File: `_data/master_info.json`
 
@@ -498,7 +575,7 @@ data_source: docenti_26_27
 - `costi`: Aggiornamento delle informazioni su tasse e costi
 - `scadenze`: Date importanti per l'edizione 2026-2027
 
----
+### 10. Checklist Finale
 
 ## 7. Checklist Finale
 
@@ -538,11 +615,7 @@ Prima di pubblicare la nuova edizione, verificare che:
 - [ ] Verificare che la pagina direttivo mostri solo il consiglio direttivo
 - [ ] Controllare che tutte le immagini dei docenti siano visualizzate correttament
 - [ ] Tutti i corsi nel file didattica hanno i campi obbligatori compilati
-- [ ] I link nel `docenti_26_27.yml` se ci sono cambiamenti nel corpo docente
-- [ ] Aggiungere foto di eventuali nuovi docenti in `assets/images/docenti/`
-- [ ] Verificare se ci sono stati cambiamenti nel consiglio direttivo
-
-### Test Locale ✓
+- [ ] Controllare che tutte le immagini dei docenti siano visualizzate correttamente
 - [ ] Eseguire `bundle exec jekyll serve` per testare il sito in locale
 - [ ] Verificare che la pagina `/didattica/26-27` sia accessibile
 - [ ] Verificare che la pagina `/studenti/26-27/` sia accessibile
@@ -561,6 +634,81 @@ Prima di pubblicare la nuova edizione, verificare che:
 ---
 
 ## Note Aggiuntive
+
+### Modifica della Home Page
+
+La home page del master (`_pages/index.markdown`) utilizza il layout `master-home` e non necessita di aggiornamenti per ogni nuova edizione, poiché:
+- Mostra le statistiche globali da `_data/master_info.json` (numero edizioni, studenti, etc.)
+- Contiene la sezione "Evento Inaugurazione" che può essere aggiornata manualmente
+- I CTA (Call To Action) rimangono stabili tra le edizioni
+
+**Quando aggiornare il contenuto della home**:
+- Per cambiamenti nel programma o nei dettagli del master
+- Quando ci sono nuove sezioni o componenti da aggiungere
+- Quando l'evento inaugurazione cambia luogo, data o modalità
+
+### Gestione dei Partner
+
+Il file `_data/partners.yml` contiene l'elenco dei partner aziendali. Questo file:
+- È condiviso tra tutte le edizioni
+- Non necessita di aggiornamenti frequenti (solo quando si aggiungono nuovi partner)
+- Viene visualizzato nella pagina partner (`partner.markdown`)
+
+**Struttura di un partner**:
+```yaml
+- name: "Nome Azienda"
+  logo: "/assets/images/partners/logo.png"
+  website: "https://www.azienda.com"
+  description: "Breve descrizione dell'azienda e della collaborazione con il master"
+```
+
+### Gestione dei Progetti
+
+Il file `_data/progetti.yml` contiene l'elenco dei progetti realizzati dagli studenti. Questo file:
+- Contiene progetti da tutte le edizioni (campo `anno_accademico`)
+- Viene visualizzato nella pagina progetti (`progetti.markdown`)
+- Deve essere aggiornato al termine di ogni edizione con i nuovi progetti
+
+**Struttura di un progetto**:
+```yaml
+- title: "Titolo del Progetto"
+  anno_accademico: "2025-2026"
+  descrizione: "Descrizione dettagliata del progetto"
+  studenti: ["Nome Studente 1", "Nome Studente 2"]
+  azienda_partner: "Nome Azienda Partner"
+  tags: ["big data", "machine learning", "analisi"]
+```
+
+### Contenuti Rimossi e Deprecated
+
+A febbraio 2026, sono state rimosse le seguenti pagine e componenti non più utilizzate:
+- **Pagine**: `bootstrap.markdown`, `installation.markdown`, `jekyll-ssg.markdown`, `kramdown.markdown`, `markdown.markdown`, `obiettivi.markdown`, `single.markdown`
+- **Snippets**: Frammenti di documentazione tecnica relativi a implementazione interna e design pattern
+- **Componenti**: Diversi componenti HTML custom non più integrati nei layout (modal, selector, etc.)
+
+Se in futuro è necessario recuperare questi contenuti, controllare la cronologia Git nei commit precedenti al 3 Febbraio 2026.
+
+### Funzionalità Dinamiche Introdotte
+
+#### 1. Gestione Dinamica delle Scadenze
+La funzione `getStatoScadenza()` (localizzata in uno dei file JavaScript) determina automaticamente lo stato di una scadenza:
+- **APERTA**: La data di iscrizione è ancora aperta
+- **IN CORSO**: La scadenza è attualmente in corso
+- **CHIUSA**: La scadenza è scaduta
+- **PROSSIMA**: La scadenza è prossima
+
+Il file `_data/master_info.json` contiene tutte le scadenze che verranno visualizzate dinamicamente nella pagina di iscrizione.
+
+#### 2. Layout Consiglio Direttivo
+Il nuovo layout `direttivo` filtra automaticamente i docenti in base al ruolo (`role`):
+- Visualizza solo i membri con `role: "Direttore del Master"`, `"Vice-Direttrice"`, `"Consiglio Direttivo"`
+- Viene utilizzato dalla pagina `_pages/direttivo/direttivo_YY_YY.markdown` per ogni edizione
+
+#### 3. Filtro Layout People
+Il layout `people` supporta il campo `data_type` per filtrare i dati:
+- **`data_type: docenti`**: Mostra solo le persone con `role: "Docente"`
+- **`data_type: studenti`**: Mostra solo i dati relativi agli studenti
+- Questo permette di usare lo stesso data source per pagine diverse
 
 ### Tempistiche Suggerite
 
