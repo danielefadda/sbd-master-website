@@ -25,7 +25,7 @@ function getStatoScadenza(startDate, endDate) {
   const end = endDate ? new Date(endDate).getTime() : start;
 
   if (now < start) {
-    return { label: "🟡 Attivo", class: "status-future" };
+    return { label: "🟡 In arrivo", class: "status-future" };
   } else if (now > end) {
     return { label: "🔴 Concluso", class: "status-past" };
   } else {
