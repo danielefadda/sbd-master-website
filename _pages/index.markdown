@@ -4,15 +4,6 @@ title: "Master in Big Data Analytics & AI for Society"
 subtitle: "Un percorso annuale per diventare Data Scientist<br>- Università di Pisa -"
 # vega: true
 
-# Hero CTA Buttons
-hero_cta:
-  - text: "Scopri il Programma"
-    url: "/didattica/25-26"
-    style: "light"
-  - text: "Come Iscriversi"
-    url: "/iscrizione"
-    style: "outline-light"
-
 # Statistiche in evidenza
 stats:
   - label: "Edizioni Master"

@@ -62,13 +62,10 @@ layout: default-full
           {% if page.subtitle %}
           <p class="chulapa-subtitle p-summary lead" style="color: white;">{{ page.subtitle }}</p>
           {% endif %}
-          {% if page.hero_cta %}
           <div class="d-flex justify-content-center flex-wrap mt-4">
-            {% for cta in page.hero_cta %}
-            <a href="{{ cta.url | relative_url }}" class="btn btn-{{ cta.style }} btn-lg mx-2 mb-2">{{ cta.text }}</a>
-            {% endfor %}
+            <a href="/didattica" class="btn btn-light btn-lg mx-2 mb-2">Scopri il Programma</a>
+            <a href="/iscrizione" class="btn btn-outline-light btn-lg mx-2 mb-2">Come Iscriversi</a>
           </div>
-          {% endif %}
         </div>
       </div>
     </div>
