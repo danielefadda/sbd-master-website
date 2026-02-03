@@ -1,22 +1,6 @@
 # Guida: Aggiungere una Nuova Edizione del Master
 
-Questa guida descrive dettagliatamente tutti i file che devono essere creati e modificati per aggiungere una nuova edizione del Master Big Data.
-
-## Aggiornamenti Recenti (Febbraio 2026)
-
-### Pulizia Repository
-Il repository è stato ripulito rimuovendo contenuti obsoleti e non utilizzati:
-- **Pagine eliminate**: `bootstrap.markdown`, `installation.markdown`, `jekyll-ssg.markdown`, `kramdown.markdown`, `markdown.markdown`, `obiettivi.markdown`, `single.markdown`
-- **Componenti HTML eliminate**: Diversi componenti custom non più utilizzati (`big-numbers.html`, `code-explanation.html`, `img-selector.html`, `modal-component-intro.html`, `modal-component-mappa.html`, etc.)
-- **Snippet eliminati**: Frammenti non essenziali di documentazione e sezioni dedicate a contenuti storici
-
-### Miglioramenti Recenti
-- **Evento Inaugurazione**: Aggiunta della sezione "Evento Inaugurazione" alla home page del master con schedule dettagliato
-- **Sezione Status**: Implementazione della funzione `getStatoScadenza()` per visualizzare dinamicamente lo stato delle scadenze di iscrizione
-- **Styling Ottimizzato**: Miglioramenti di responsive design per la sezione contatti, evento e footer
-- **Deadlines Dinamiche**: Aggiunta del sistema dinamico per la gestione delle scadenze di iscrizione (campo `scadenze` in `_data/master_info.json`)
-- **Navbar Responsiva**: Migliorato il design della navbar per una migliore visualizzazione su dispositivi mobile
-- **Pagine Consiglio Direttivo**: Aggiunte pagine dedicate al consiglio direttivo per ogni edizione del master (layout `direttivo`)
+Questa guida descrive dettagliatamente tutti i file che devono essere creati e modificati per aggiungere una nuova edizione del Master Big Data (anno accademico 2026-2027).
 
 ## Indice
 1. [File di Configurazione Edizioni](#1-file-di-configurazione-edizioni)
