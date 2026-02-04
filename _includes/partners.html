@@ -5,20 +5,36 @@
     
     <div class="partners-grid">
       {% for partner in site.data.partners.partners %}
-        {% if partner.active %}
-          <div class="partner-item partner-{{ partner.level }} partner-{{ partner.type }}">
-            <div class="partner-logo-wrapper">
-              <img src="{{ site.baseurl }}/{{ partner.logo }}" 
-                   alt="{{ partner.name }}" 
-                   class="partner-logo"
-                   title="{{ partner.name }} - {{ partner.type | capitalize }} ({{ partner.level | capitalize }})">
+        {% if partner.active and partner.visible %}
+          {% if partner.url %}
+            <a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer" class="partner-item partner-{{ partner.level }} partner-{{ partner.type }}">
+              <div class="partner-logo-wrapper">
+                <img src="{{ site.baseurl }}/{{ partner.logo }}" 
+                     alt="{{ partner.name }}" 
+                     class="partner-logo"
+                     title="{{ partner.name }} - {{ partner.type | capitalize }} ({{ partner.level | capitalize }})">
+              </div>
+              <div class="partner-info">
+                <p class="partner-name">{{ partner.name }}</p>
+                <span class="partner-badge partner-badge-{{ partner.type }}">{{ partner.type | capitalize }}</span>
+                <span class="partner-badge partner-badge-{{ partner.level }}">{{ partner.level | capitalize }}</span>
+              </div>
+            </a>
+          {% else %}
+            <div class="partner-item partner-{{ partner.level }} partner-{{ partner.type }}">
+              <div class="partner-logo-wrapper">
+                <img src="{{ site.baseurl }}/{{ partner.logo }}" 
+                     alt="{{ partner.name }}" 
+                     class="partner-logo"
+                     title="{{ partner.name }} - {{ partner.type | capitalize }} ({{ partner.level | capitalize }})">
+              </div>
+              <div class="partner-info">
+                <p class="partner-name">{{ partner.name }}</p>
+                <span class="partner-badge partner-badge-{{ partner.type }}">{{ partner.type | capitalize }}</span>
+                <span class="partner-badge partner-badge-{{ partner.level }}">{{ partner.level | capitalize }}</span>
+              </div>
             </div>
-            <div class="partner-info">
-              <p class="partner-name">{{ partner.name }}</p>
-              <span class="partner-badge partner-badge-{{ partner.type }}">{{ partner.type | capitalize }}</span>
-              <span class="partner-badge partner-badge-{{ partner.level }}">{{ partner.level | capitalize }}</span>
-            </div>
-          </div>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </div>

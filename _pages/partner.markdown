@@ -22,7 +22,7 @@ Un numero significativo di studenti ha trovato impiego presso queste aziende par
 
 <div class="partners-grid">
   {% for partner in site.data.partners.partners %}
-    {% if partner.active %}
+    {% if partner.active and partner.visible %}
       <div class="partner-item partner-{{ partner.level }} partner-{{ partner.type }}">
         <div class="partner-logo-wrapper">
           <img src="{{ site.baseurl }}/{{ partner.logo }}" 
@@ -49,6 +49,7 @@ Un numero significativo di studenti ha trovato impiego presso queste aziende par
 
 <div class="partners-grid">
   {% for partner in inactive_partners %}
+    {% if partner.visible %}
     <div class="partner-item partner-{{ partner.level }} partner-{{ partner.type }} partner-inactive">
       <div class="partner-logo-wrapper">
         <img src="{{ site.baseurl }}/{{ partner.logo }}" 
@@ -62,6 +63,7 @@ Un numero significativo di studenti ha trovato impiego presso queste aziende par
         <span class="partner-badge partner-badge-{{ partner.level }}">{{ partner.level | capitalize }}</span>
       </div>
     </div>
+    {% endif %}
   {% endfor %}
 </div>
 

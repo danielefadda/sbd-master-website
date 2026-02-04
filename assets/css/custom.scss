@@ -326,6 +326,15 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
   box-shadow: $shadow-light;
   transition: all 0.3s ease;
   border-top: 4px solid $border-gray;
+  text-decoration: none;
+  color: inherit;
+}
+
+.partner-item {
+  &:hover {
+    box-shadow: $shadow-medium;
+    transform: translateY(-2px);
+  }
 }
 
 .partner-item:hover {
