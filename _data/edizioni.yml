@@ -77,3 +77,10 @@
   url: "/didattica/15-16"
   data_file: didattica_15_16
   active: false
+
+- label: "2014-2015"
+  year: "14-15"
+  year_label: "2014-2015"
+  url: "/didattica/14-15"
+  data_file: didattica_14_15
+  active: false
