@@ -4,3 +4,8 @@ _site
 .jekyll-metadata
 vendor
 .idea
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
