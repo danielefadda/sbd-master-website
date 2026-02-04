@@ -23,6 +23,9 @@ Un numero significativo di studenti ha trovato impiego presso queste aziende par
 <div class="partners-grid">
   {% for partner in site.data.partners.partners %}
     {% if partner.active and partner.visible %}
+      {% if partner.url %}
+        <a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer" class="partner-item-link">
+      {% endif %}
       <div class="partner-item partner-{{ partner.level }} partner-{{ partner.type }}">
         <div class="partner-logo-wrapper">
           <img src="{{ site.baseurl }}/{{ partner.logo }}" 
@@ -36,6 +39,9 @@ Un numero significativo di studenti ha trovato impiego presso queste aziende par
           <span class="partner-badge partner-badge-{{ partner.level }}">{{ partner.level | capitalize }}</span>
         </div>
       </div>
+      {% if partner.url %}
+        </a>
+      {% endif %}
     {% endif %}
   {% endfor %}
 </div>
@@ -50,6 +56,9 @@ Un numero significativo di studenti ha trovato impiego presso queste aziende par
 <div class="partners-grid">
   {% for partner in inactive_partners %}
     {% if partner.visible %}
+    {% if partner.url %}
+      <a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer" class="partner-item-link">
+    {% endif %}
     <div class="partner-item partner-{{ partner.level }} partner-{{ partner.type }} partner-inactive">
       <div class="partner-logo-wrapper">
         <img src="{{ site.baseurl }}/{{ partner.logo }}" 
@@ -63,6 +72,9 @@ Un numero significativo di studenti ha trovato impiego presso queste aziende par
         <span class="partner-badge partner-badge-{{ partner.level }}">{{ partner.level | capitalize }}</span>
       </div>
     </div>
+    {% if partner.url %}
+      </a>
+    {% endif %}
     {% endif %}
   {% endfor %}
 </div>
