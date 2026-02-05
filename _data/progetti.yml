@@ -154,169 +154,169 @@
   group: 1
   year: 2021
   img_url: "/assets/images/progetti/Comizi_d_amore.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "La discussione sessuale e di genere in Italia attraverso i dati delle piazze online"
   path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/comizi_amore/"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Fatima Abid", "Luca Buoni", "Eleonora Cappuccio", "Guglielmo Giomi"]
 
 - name: "Disagio A Distanza"
   group: 2
   year: 2021
   img_url: "/assets/images/progetti/Disagio_A_Distanza__ma_non_solo.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "ma non solo..."
   path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/dad"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Lorenzo Maggioletti", "Marco Zecchinato", "Maria Raffa","Miki Mema","Roberto Narducci"]
 
 - name: "Distretti Tecnologici 4.0"
   group: 3
   year: 2021
   img_url: "/assets/images/progetti/Distretti_Tecnologici_4_0.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Nuove tecniche per mappare l'innovazione"
   path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/distretti_tecnologici/"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Nicolò Allegra", "Luca Cavargini", "Niccolò Silicani"]
 
 - name: "Everybody's Changing"
   group: 4
   year: 2021
   img_url: "/assets/images/progetti/Everybody_s_Changing.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "How has music changed in the past few years?"
   path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/musica"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Giovanni Cusumano", "Martina Formichini", "Giuseppe Minardi", "Carmela Sgroi"]
 
 - name: "Pocket Trip"
   group: 5
   year: 2021
   img_url: "/assets/images/progetti/Pocket_Trip.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Il tuo viaggio a portata di mano"
   path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/PocketTrip/"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Alfonso Corrado", "Francesca Silvia Carosio", "Isabel Carozzo", "Riccardo Gabriele Scasso", "Simona Barba"]
 
 - name: "Sotto una Coltre di Fumo"
   group: 6
   year: 2021
   img_url: "/assets/images/progetti/https___masterbigdata_it_sites_default_files_projects_2020-2021_incendi_.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Una panoramica mondiale su come i media parlano dei Grandi Incendi Forestali"
   path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/incendi"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Elisa Mercanti", "Gianluca Guidi", "Marzia Longo", "Vincenzo Aiello"]
 
 - name: "Covid Panic Buying"
   group: 1
   year: 2020
   img_url: "/assets/images/progetti/Covid_Panic-Buying.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Guida ai prodotti più acquistati durante l'emergenza Covid"
   path: "https://masterbigdata.it/project-files/2019-2020/panicBuying/"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Andrea Pugnana", "Yuri De Rosa", "Riccardo Bufalini", "Francesca Giannaccini"]
 
 - name: "Il lockdown degli italiani"
   group: 2
   year: 2020
   img_url: "/assets/images/progetti/Progetto_Master.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "tra smartworking e didattica a distanza: non solo tristezza e paura"
   path: "https://masterbigdata.it/project-files/2019-2020/didattica/"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Alice Borselli", "Valentino Calcagno", "Fabio Gitto", "Sebastiano Martorana"]
 
 - name: "L'Italia Nascosta"
   group: 3
   year: 2020
   img_url: "/assets/images/progetti/L_Italia_nascosta.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Riscopri il turismo locale attraverso i dati"
   path: "https://masterbigdata.it/project-files/2019-2020/turismo/"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Giangaetano Pachera", "Gianluca Sperduti", "Ada Maragno", "Lorenzo Basile"]
 
 - name: "La Costante della Disney"
   group: 4
   year: 2020
   img_url: "/assets/images/progetti/La_costante_della_Disney.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Come la casa di Topolino non è cambiata da Biancaneve a Frozen"
   path: "https://masterbigdata.it/project-files/2019-2020/disney/"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Elena Baccoli", "Valeria Guttilla", "Attilio Trovato", "Angelo Turco"]
 
 - name: "Le parole danno i numeri"
   group: 5
   year: 2020
   img_url: "/assets/images/progetti/Master_BigData_Project.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "L'evoluzione della pandemia raccontata da Twitter"
   path: "https://masterbigdata.it/project-files/2019-2020/sentiment_covid/"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Nicola Leonardi", "Marco Barchitta", "Nicola Salerno", "Vincenzo Giammetta" ]
 
 - name: "Non solo quartieri"
   group: 6
   year: 2020
   img_url: "/assets/images/progetti/Quartieri_Milano.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Viaggio nella Milano Data-Driven"
   path: "https://masterbigdata.it/project-files/2019-2020/quartieri_milano/"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Giulia Vasciaveo", "Tommaso Losterzo", "Noemi Gabrieli"]
 
 - name: "Cinema & Machine Learning"
   group: 1
   year: 2019
   img_url: "/assets/images/progetti/oscar.jpg"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Può una macchina predire il successo di un film?"
   path: "https://masterbigdata.it/project-files/2018-2019/oscar/index.html"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Filippo Cassano", "Guido Cei", "Laura De Grazia", "Simone Fabbrizzi", "Lorenzo Lodi"]
 
 - name: "Dal Web al carrello"
   group: 2
   year: 2019
   img_url: "/assets/images/progetti/web_carrello.jpg"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Quando la lista della spesa la scrive internet"
   path: "https://masterbigdata.it/project-files/2018-2019/coop/index.html#slideCorrelationDiv"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Maurizio Gazzarri", "Alessio Gurioli", "Daniele Pau", "Cristina Romani"]
 
 - name: "Fare ricerca oggi"
   group: 3
   year: 2019
   img_url: "/assets/images/progetti/Fare_ricerca_oggi.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Un'analisi della ricerca italiana attraverso i dati di Scopus"
   path: "https://masterbigdata.it/project-files/2018-2019/ricerca/"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Anastasia Bogomolova", "Antonio Coiro", "Alessandro D'Elia", "Raffaele Mazziotti"]
 
-- name: "JOB OFFER MARKET"
+- name: "Job offer market"
   group: 4
   year: 2019
   img_url: "/assets/images/progetti/job.jpg"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Viaggio nel mondo dell’offerta di lavoro online"
   path: "https://masterbigdata.it/project-files/2018-2019/job/index.html"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Maria Luisa Costa", "Giuliano Gemma", "Valentina Gori", "Alberto Olivieri"]
 
 - name: "Tecnofili o tecnofobi?"
   group: 5
   year: 2019
   img_url: "/assets/images/progetti/tecnofili_tecnofobi.jpg"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Viaggio nel mondo dell'innovazione tra paure e speranze per il futuro"
   path: "https://masterbigdata.it/project-files/2018-2019/patents/index.html"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Eduardo Bondielli", "Ilenia Galluccio", "Luca Paganelli", "Nunzia Squicciarini", "Isaia Tarquini"]
 
 - name: "Viaggio nell'influencer marketing"
   group: 6
   year: 2019
   img_url: "/assets/images/progetti/influencer.jpg"
-  description: "Lorem ipsum dolor sit amet"
+  description: "How to be the next?"
   path: "https://masterbigdata.it/project-files/2018-2019/influencer/index.html"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Olivia Lanzoni", "Giulia Lucherini","Tina Martino", "Barbara Ranghetti", "Paola Serratì"]
 
-- name: "Kitesurf"
+- name: "La Libertà di Volare"
   group: 1
   year: 2017
   img_url: "/assets/images/progetti/Kite-Surf.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Il kitesurf, lo sport espressione della libertà, raggiunge il traguardo olimpico."
   path: "http://masterbigdata.it/project-files/2016-2017/kite/kite.html"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Marco Danzo", "Manuel Usai", "Osvaldo Marullo"]
 
 - name: "Birra 'mbriaha"
   group: 2
   year: 2016
   img_url: "/assets/images/progetti/Birre.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Gli italiani seguono gli abbinamenti giusti?"
   path: "http://masterbigdata.it/project-files/2015-2016/birra-mbriaha/index.html"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Valentina Mulas"]
 
-- name: "BlaBlaCar"
+- name: "BlaBlaCar ai raggi-X"
   group: 3
   year: 2016
   img_url: "/assets/images/progetti/Blablacar.png"
-  description: "Lorem ipsum dolor sit amet"
+  description: "Le 10 curiosità del più grande servizio di car-sharing al mondo"
   path: "http://masterbigdata.it/project-files/2015-2016/blablacar/SitoBlaBlaCar.html"
-  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+  students: ["Cardinaletti", "Ceriotti", "Ferrucci", "Nardi"]
 
 - name: "Serie tv, Politica e Big Data"
   group: 1
