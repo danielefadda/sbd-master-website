@@ -22,5 +22,6 @@ I progetti del Master in Big Data Analytics and Artificial Intelligence for Soci
     </div>
 </div>
 
+{% include search-lunr.html %}
 
 {% include progetti-list.html %}

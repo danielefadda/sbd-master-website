@@ -1,14 +1,14 @@
-# Docenti anno 2016-2017
-- name: Viola Bachini
+# Docenti anno 2014-2015
+- name: Valerio Arnaboldi
   role: ''
-  institution: Freelance Journalist
-  bio: I graduated from Scuola Internazionale Superiore di Studi Avanzati di Trieste with a master's in Science Communication. Currently I am collaborating with various organizations in the field of science communication. I specifically write about science and technology subjects on many national newspapers such as La Repubblica and L'Espresso.
-  image: /assets/images/docenti/Bachini1.jpg
-- name: Viola Bachini
+  institution: Istituto di Informatica e Telematica, CNR
+  bio: È ricercatore presso l'Istituto di Informatica e Telematica (IIT) del Consiglio Nazionale delle Ricerche (CNR), all'interno del gruppo "Ubiquitous Internet" con sede a Pisa. Si occupa principalmente dell'analisi di strutture sociali all'interno di online social network, e della creazione di soluzioni applicative chiamate "Mobile Social Network" per scambio di dati basato su informazioni sociali e di contesto fra dispositivi mobili in prossimità tramite reti opportunistiche.
+  image: /assets/images/docenti/arnaboldi.png
+- name: Valerio Arnaboldi
   role: ''
-  institution: Freelance Journalist
-  bio: Ho conseguito il Master Biennale in Comunicazione della Scienza alla Scuola Internazionale Superiore di Studi Avanzati di Trieste e lavoro nell'ambito collaborando con diverse istituzioni. In particolare, scrivo le pagine di scienza e tecnologia di diverse riviste nazionali, tra cui Repubblica e L'Espresso. Sono borsista al KDD Lab (Università di Pisa - Cnr), dove mi occupo della comunicazione del master in Big Data, del corso di laurea in Business Informatics e delle attività di laboratorio.
-  image: /assets/images/docenti/Bachini1.jpg
+  institution: Istituto di Informatica e Telematica, CNR
+  bio: Valerio Arnaboldi holds a PhD in Computer Engineeging from the University of Pisa and he works as a research assistant in the Ubiquitous Internet group, at the institute for informatics and telematics (IIT) of the National Research Council of Italy (CNR). He works in the area of the analysis and characterisation of social structures and information dissemination in Online Social Networks, and on context- and social-aware middleware solutions for Mobile Social Networking applications.
+  image: /assets/images/docenti/arnaboldi.png
 - name: Alessandro Baroni
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
@@ -19,26 +19,16 @@
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Alessandro Baroni was born in 1984 in Italy, and holds a Master Degree in Business Informatics (Computer Science). He is currently a Ph.D. student in Computer Science. His current research interests are in data mining and particularly in social science.
   image: /assets/images/docenti/Baroni1.jpg
-- name: Elena Casprini
+- name: Paolo Cintia
   role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: Elena Casprini è Postdoc in Economia e Gestione delle Imprese all’Istituto di Management, Scuola Superiore Sant’Anna. È stata Visiting Ph.D. student presso la Cass Business School (Londra, Regno Unito) e collabora con il Dipartimento di Studi Sociali e Giuridici dell’Università di Siena. È coinvolta in attività didattiche riguardanti la gestione dell’innovazione per corsi di laurea triennali, magistrali e masters. I suoi interessi di ricerca principali riguardano l’innovazione dei modelli di business, l’ open innovation e le aziende familiari.
-  image: /assets/images/docenti/08e4899.jpg
-- name: Elena Casprini
+  institution: Dipartimento d'Informatica, Università di Pisa
+  bio: Born in Marsciano(PG), 4th november 1983. Actually i'm a Phd Student in Computer Science at the graduate studies school "G. Galilei" of Pisa. My main interests in researching are about mobility mining and location prediction. In 2006 I got my bachelor degree in Computer Science at university of Perugia, with thesis on "Parallels and distributed algorithms for resolution of propagation equations". In 2009 I got my master degree in Computer Science at university of Pisa, with thesis on "Map matching of gsm tracks with data mining technique"
+  image: /assets/images/docenti/Cintia1.jpg
+- name: Paolo Cintia
   role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: Elena Casprini is Postdoc Research Fellow in Management at Scuola Superiore Sant'Anna. She has been a Visiting Ph.D. at Cass Business School (London, UK) and she collaborates with the Department of Business and Law at University of Siena. She has been involved in teaching activities about innovation management at both B.Sc. and M.Sc. levels. Her main research interests include business model innovation, open innovation and family firms.
-  image: /assets/images/docenti/08e4899.jpg
-- name: Giovanni Comandè
-  role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: Giovanni Comandè (LLM Harvard Law School USA, Ph.D. Scuola Superiore Sant’Anna) is Full Professor of Private comparative law at Scuola Superiore Sant’Anna where he also studied as ordinary student.
-  image: /assets/images/docenti/Giovanni-Comandè-300x300.jpg
-- name: Giovanni Comandè
-  role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: Giovanni Comandè (LLM Harvard Law School USA, Ph.D. Scuola Superiore Sant’Anna) è Professore Ordinario di Diritto Privato comparato alla Scuola Superiore Sant’Anna dove ha studiato anche quale allievo ordinario.
-  image: /assets/images/docenti/Giovanni-Comandè-300x300.jpg
+  institution: Dipartimento d'Informatica, Università di Pisa
+  bio: 'Nato a Marsciano (Perugia), ha una laurea specialistica e un dottorato in Informatica, entrambi conseguiti presso l''Università di Pisa. Oggi è post-doc all''Istituto di Scienze dell''Informazione del CNR, dove si occupa di Big Data, con attenzione a due ambiti: mobilità e performance sportiva. Partecipa a progetti europei di ricerca in tema di analisi e integrazione di dati di mobilità, con particolare riferimento alla telefonia mobile, e collabora con la Northeastern University di Boston sul tema emergente della Scienza del Successo.'
+  image: /assets/images/docenti/Cintia1.jpg
 - name: Marco Cornolti
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
@@ -49,16 +39,6 @@
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Assegnista di ricerca presso l'Università di Pisa, dove ha conseguito anche la laurea ed il dottorato di ricerca in Informatica. Fa parte del laboratorio di ricerca Advanced Algorithms and Applications (Acube Lab). Ha avuto collaborazioni principalmente con Google, NEC e l'Università di Monaco di Baviera. I suoi interessi di ricerca includono la comprensione del linguaggio naturale, la rappresentazione della semantica dei testi, information retrieval ed information extraction, più tutto ciò che sta nel mezzo.
   image: /assets/images/docenti/0aa7a22.jpg
-- name: Stefano Cresci
-  role: ''
-  institution: Istituto di Informatica e Telematica, CNR
-  bio: Stefano received his Bachelor’s and Master’s degrees in Computer Engineering from the University of Pisa respectively in 2007 and 2013. He also received a post-graduate Master’s degree in Big Data Analytics & Social Mining from the University of Pisa in 2016. Currently, he is a PhD Student at the Information Engineering School of the University of Pisa. He is also a Research Fellow at the Institute of Informatics and Telematics (IIT) of the National Research Council (CNR) in Pisa, Italy.
-  image: /assets/images/docenti/CresciS-2.png
-- name: Stefano Cresci
-  role: ''
-  institution: Istituto di Informatica e Telematica, CNR
-  bio: Stefano ha ricevuto la Laurea Specialistica in Ingegneria Informatica nel 2013 ed un Diploma di Master Universitario di secondo livello in Big Data Analytics and Social Mining nel 2016, dall'Università di Pisa. Attualmente è uno studente iscritto al XXX ciclo della Scuola di Dottorato in Ingegneria dell'Informazione dell'Università di Pisa ed un ricercatore a tempo determinato presso l'Istituto di Informatica e Telematica del CNR di Pisa.
-  image: /assets/images/docenti/CresciS-2.png
 - name: Luca De Biase
   role: ''
   institution: Il Sole 24 Ore
@@ -69,16 +49,6 @@
   institution: Il Sole 24 Ore
   bio: Laureato all’Università Bocconi di Milano, in Discipline economiche e sociali, con la votazione di 110/110 e lode. E' editor di innovazione al Sole 24 Ore e Nova24 (del quale è stato fondatore, che ha guidato dall’ottobre2005 al giugno 2011; e che ha ripreso a guidare dal luglio 2013) e della Vita Nòva, magazine per tablet. E' docente al master di comunicazione della scienza all’Università di Padova e membro del comitato scientifico del master di comunicazione della scienza alla Sissa di Trieste e del master in Big data analytics della Luiss di Roma.
   image: /assets/images/docenti/debiase.png
-- name: Alberto Di Minin
-  role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: I am an Associate Professor of Management at the Scuola Superiore Sant'Anna in Pisa. I am also Research Fellow with the Berkeley Roundtable on the International Economy (BRIE), University of California – Berkeley and Social Innovation Fellow with the Meridian International Center of Washington, DC. I am currently the Italian Representative on the SMEs & Access to Finance Programme Committee, for Horizon 2020, with the European Commission.
-  image: /assets/images/docenti/alberto_web2.jpg
-- name: Alberto Di Minin
-  role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: Alberto Di Minin è Professore Associato presso l'Istituto di Management della Scuola Superiore Sant'Anna di Pisa e Reserch Fellow del Berkeley Roundtable on the International Economy. Segue i temi dell'Open Innovation e dello sviluppo dei nuovi modelli di business. I suoi più recenti lavori sono apparsi su California Mgmt. Review, Research Policy e Journal of International Business Studies.
-  image: /assets/images/docenti/alberto_web2.jpg
 - name: Andrea Esuli
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
@@ -89,16 +59,16 @@
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Andrea has master in computer science and a phd in information engineering. Since 2011 is a researched at Istituto di Scienza e Tecnologie dell'Informazione "A. Faedo", which is part of the National Research Council (CNR). His research is in Human Language Technologies area, with a focus on Text Classification, Information Extraction and Sentiment Analysis.
   image: /assets/images/docenti/esuli.png
-- name: Daniele Fadda
+- name: Lorenzo Gabrielli
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Daniele Fadda, nato a Milano 5-10-81, si laurea in Communication Design presso il Laboratorio Density Design del Politecnico di Milano nel 2010. Attualmente svolge la libera professione occupandosi prevalentemente di progetti di promozione e storytelling territoriale (nei comuni di Pisa e Città della Pieve - PG). Si è occupato di rappresentazione visiva di sistemi complessi e di visualizzazione di dati riguardanti soprattutto le infrastrutture per i trasporti e ha collaborato con diversi studi di architettura come consulente per la comunicazione.
-  image: /assets/images/docenti/Fadda1.jpg
-- name: Daniele Fadda
+  bio: 'Lorenzo Gabrielli was born in 1984 in Italy. He graduated in Business Informatics in 2010 at the University of Pisa. He discussed his thesis on Mobility Data Analysis: “A Case Study of the Milan area”. Currently he is a Research Fellow at ISTI-CNR as member of Knowledge Discovery and Delivery Laboratory.'
+  image: /assets/images/docenti/Gabrielli1a.jpg
+- name: Lorenzo Gabrielli
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Daniele Fadda, born in Milan on 10.05.81. He graduated at Density Design LAB at the School of Design - Politecnico di Milano. He is now a freelance designer coordinating projects about promotion and territorial storytelling for the municipality of Pisa and Città della Pieve (PG). He worked on the visual representation of complex systems, data visualization, especially regarding the transport infrastructures and he collaborated with several architects as communication consultant. In the spare time, he works as graphic designer for the monthly press Seconda Cronaca.
-  image: /assets/images/docenti/Fadda1.jpg
+  bio: Lorenzo Gabrielli ha sei anni di esperienza nell’analisi di Big Data con tecniche di Data Mining e Machine Learning. I suoi interessi riguardano lo studio della mobilità allo scopo di individuare i pattern individuali e collettivi di comportamento, arricchimento semantico degli spostamenti, studio della capacità del trasporto pubblico locale di servire viaggi privati.
+  image: /assets/images/docenti/Gabrielli1a.jpg
 - name: Davide Gazzè
   role: ''
   institution: Integris S.r.l.
@@ -119,16 +89,6 @@
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: 'È dirigente di ricerca del Consiglio Nazionale delle Ricerche (CNR) e dirige con Dino Pedreschi il KDD LAB – Knowledge Discovery and Data Mining Laboratory [kdd.isti.cnr.it] – un centro di ricerca congiunto fra l’Università di Pisa e l’Istituto di Scienza e Tecnologie dell’Informazione del CNR, uno dei primi focalizzati sul “data mining”. I suoi interessi di ricerca includono: data mining query languages, knowledge discovery support environment, web-mining, spatio-temporal reasoning, spatio-temporal data mining e privacy preserving data mining.'
   image: /assets/images/docenti/Giannotti1-2-2.jpg
-- name: Riccardo Guidotti
-  role: Steering Committee Member
-  institution: Dipartimento d'Informatica, Università di Pisa
-  bio: 'Riccardo Guidotti was born in 1988 in Pitigliano (GR) Italy. He graduated cum laude in Computer Science in 2013, at University of Pisa. He discussed hi thesis on Mobility Ranking: Human Mobility Analysis using Ranking Measures. He started the Ph.D. in Computer Science at the School for Graduate Studies "Galileo Galilei", (University of Pisa) in November 2013. He is currently a member of Knowledge Discovery and Delivery Laboratory. His interests regard Individual Data Mining, Mobility Data Analysis, Economic Data Analysis and Complex Network Analysis.'
-  image: /assets/images/docenti/Guidotti1.jpg
-- name: Riccardo Guidotti
-  role: Membro del Consiglio
-  institution: Dipartimento d'Informatica, Università di Pisa
-  bio: 'Riccardo Guidotti è nato nel 1988 a Pitigliano (GR) Italia. Si è laureato con lode in Informatica nel 2013, presso l''Università di Pisa. La sua tesi di laurea si intitola "Mobility Ranking: Human Mobility Analysis using Ranking Measures". Ha iniziato il dottorato di ricerca in Computer Science presso la Scuola per Graduate Studies "Galileo Galilei", (Università di Pisa), nel novembre 2013. Attualmente è membro del Knowledge Discovery and Data Mining Laboratory.'
-  image: /assets/images/docenti/Guidotti1.jpg
 - name: Claudio Lucchese
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
@@ -169,16 +129,6 @@
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Anna Monreale is an assistant professor at the Computer Science Department of the University of Pisa and a member of the Knowledge Discovery and Data Mining Laboratory (KDD-Lab), a joint research group with the Information Science and Technology Institute of the National Research Council in Pisa. She has been a visiting student at Department of Computer Science of the Stevens Institute of Technology (Hoboken, NewJersey, USA) (2010).
   image: /assets/images/docenti/monreale-2.png
-- name: Alejandro Moreo Fernández
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Alejandro Moreo Fernández received a PhD in Computer Sciences and Information Technologies from the University of Granada in 2013. He is a Postdoctoral Fellow at Istituto di Scienza e Tecnologie dell'Informazione ``A. Faedo'', which is part of the National Research Council (CNR). His research interests include deep learning and representation learning, with particular focus on imbalanced text classification, multilingual text classification, and cross-domain and cross-lingual sentiment classification.
-  image: /assets/images/docenti/MoreoFernandez.jpg
-- name: Alejandro Moreo Fernández
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Alejandro Moreo Fernández ha ricevuto il PhD in Computer Sciences and Information Technologies presso l'Università di Granada, in Spagna, nel 2013. È attualmente Postdoc all'Istituto di Scienza e Tecnologie dell'Informazione "A. Faedo" del Consiglio Nazionale delle Ricerche. I suoi interessi di ricerca riguardano il deep learning e representation learning applicato a problemi di imbalanced text classification, multilingual text classification, e cross-domain and cross-lingual sentiment classification.
-  image: /assets/images/docenti/MoreoFernandez.jpg
 - name: Mirco Nanni
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
@@ -219,46 +169,6 @@
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: È primo ricercatore del Consiglio Nazionale delle Ricerche (CNR) e coordinatore del laboratorio High Performance Computing (HPC Lab, http://hpc.isti.cnr.it ) dell"Istituto di Scienza e Tecnologia dell'Informazione A. Faedo" (ISTI), il più grande istituto di ricerca del CNR del settore ICT. Il laboratorio opera nell'Area della Ricerca del CNR di Pisa, ed è strettamente collegato con l'Università di Pisa e l'iniziativa SoBigData Lab.
   image: /assets/images/docenti/perego-2.jpg
-- name: Andrea Piccaluga
-  role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: Andrea Piccaluga is the Director of the Institute of Management at Scuola Superiore Sant'Anna ( www.sssup.it ), where he is Professor of Innovation Management. He is also President of Netval ( www.netval.it ), the Italian network of University Technology Transfer Offices.
-  image: /assets/images/docenti/foto_Picca_2013_BN-2.jpg
-- name: Andrea Piccaluga
-  role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: Andrea Piccaluga is the Director of the Institute of Management at Scuola Superiore Sant'Anna ( www.sssup.it ), where he is Professor of Innovation Management. He is also President of Netval ( www.netval.it ), the Italian network of University Technology Transfer Offices.
-  image: /assets/images/docenti/foto_Picca_2013_BN-2.jpg
-- name: Salvatore Pirri
-  role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: Motivated and highly passionate about Management of Innovation and Data Science, since 2016 I am a PhD student in Innovation Management at Sant'Anna School of Advanced Studies. I graduated cum laude in Economics and Sciences of Public Government MSc. from University of Calabria, and gained by MBA in Business Administration and Services Innovation from Sant'Anna School of Advanced Studies in 2015.
-  image: /assets/images/docenti/Pirri.jpg
-- name: Salvatore Pirri
-  role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: 'Laureato con lode in Economia e Scienze delle Pubbliche Amministrazioni presso l’Università della Calabria. Dal 2016 PhD student presso la Scuola Superiore Sant’Anna di Pisa, dove nel 2015 ottengo il Master di II livello in Management dell’innovazione e ingegneria dei servizi (MAINS). Durante il percorso di studi maturo diverse esperienze di lavoro all’estero e in Italia: Presso l’ambasciata d’Italia a Budapest; Presso l’ENEA a Bruxelles, presso SELEX-ES(Leonardo) a Genova.'
-  image: /assets/images/docenti/Pirri.jpg
-- name: Francesca Pratesi
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Francesca Pratesi received the MS degree in computer science from Pisa University, Italy, in 2013. She is a PhD student at the Computer Science Department of University of Pisa since November 2013 and a member of the Knowledge Discovery and Data Mining Lab, a joint research group with the Information Science and Technology Institute of the National Research Council in Pisa. Her research interests include data mining, data privacy and spatio-temporal data analysis.
-  image: /assets/images/docenti/Pratesi1.jpg
-- name: Francesca Pratesi
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Francesca Pratesi si è laureata in Tecnologie Informatiche nel 2013. Attualmente è una studentessa di dottorato al Dipartimento di Informatica dell'Università di Pisa ed è uno dei membri del KDD-LAB, un laboratorio congiunto dell'Università di Pisa e dell'ISTI-CNR di Pisa. I suoi interessi di ricerca sono legati alla privacy dei dati, in particolare quella relativa alle tecniche di data mining e ai dati di mobilità.
-  image: /assets/images/docenti/Pratesi1.jpg
-- name: Daniele Regoli
-  role: ''
-  institution: Scuola Normale Superiore di Pisa
-  bio: Daniele Regoli holds a post-doc position at the Scuola Normale Supriore, Pisa, working in the Quantitative Finance group. He has a background in Physics, obtaining the degree at the University of Bologna and then a PhD in Cosmology in the same University in 2011. He worked in Padova, in the Probabilty Group of the Math Department, and then moved to Scuola Normale. His main research interests are in complex networks analysis and inference, with applications to economics and finance, and, in general, models for complex systems.
-  image: /assets/images/docenti/Regoli.jpg
-- name: Daniele Regoli
-  role: ''
-  institution: Scuola Normale Superiore di Pisa
-  bio: Daniele Regoli è assegnista post-doc alla Scuola Normale Superiore di Pisa, nel gruppo di Finanza Quantitativa. Ha studiato Fisica, ottenendo la laurea all'Università di Bologna e il dottorato in Cosmologia nella stessa Università nel 2011. Ha lavorato a Padova, nel gruppo di Probabilità del Dipartimento di Matematica e poi alla Scuola Normale. I suoi interessi di ricerca riguardano analisi ed inferenza su reti complesse e le loro applicazioni economico/finanziarie, ed in generale modelli per sistemi complessi.
-  image: /assets/images/docenti/Regoli.jpg
 - name: Maurizio Tesconi
   role: ''
   institution: Istituto di Informatica e Telematica, CNR
@@ -269,26 +179,6 @@
   institution: Istituto di Informatica e Telematica, CNR
   bio: È un ricercatore dell'Istituto di Informatica e Telematica del CNR di Pisa. Laureato in Ingegneria Informatica, ha ottenuto un dottorato di Ricerca in Ingegneria dell'Informazione con una tesi riguardante lo sviluppo di un framework per la gestione di risorse semantiche complesse. I suoi interessi di ricerca riguardano l'analisi dei Social Media, il Visual Analytics, il Semantic Web e la Linguistica Computazionale. Attualmente insegna 'Visual Analytics' all'interno della laurea magistrale in business informatics dell'università di Pisa.
   image: /assets/images/docenti/tesconi.png
-- name: Roberto Trani
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: He graduated cum laude in 2016 in Computer Science at the University of Pisa (Italy), then he started in the same year the PhD in Computer Science at the same university. Roberto is currently a PhD student and a member of the High Performance Computing laboratory (HPC Lab) at the ISTI "A. Faedo" institute of CNR (Pisa). His main research interests are Information Retrieval, Machine Learning and Web Mining.
-  image: /assets/images/docenti/TraniR.jpg
-- name: Roberto Trani
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Laureato con lode nel 2016 in Informatica presso l'Università di Pisa (Italia), inizia nello stesso anno il dottorato di ricerca in Informatica presso la stessa università. Roberto è attualmente studente di dottorato e membro del laboratorio High Performance Computing (HPC Lab) presso l'istituto ISTI "A. Faedo" del CNR (Pisa). I suoi principali interessi di ricerca sono Information Retrieval, Machine Learning e Web Mining.
-  image: /assets/images/docenti/TraniR.jpg
-- name: Salvatore Trani
-  role: Membro del Consiglio
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Salvatore Trani ha conseguito la laurea in Informatica presso l'Università di Pisa nel 2013. Intraprende successivamente un periodo di collaborazione con l'Istituto di Scienza e Tecnologie dell'Informazione (ISTI) "A. Faedo" del Consiglio Nazionale delle Ricerche (CNR) di Pisa. Collaborazione che prosegue anche durante i suoi studi presso la scuola di Dottorato di Informatica dell'Università di Pisa.
-  image: /assets/images/docenti/DSC01514_0.jpg
-- name: Salvatore Trani
-  role: Steering Committee Member
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Salvatore Trani got his master degree at the Computer Science Department of the University of Pisa in 2013. He then started a collaboration with the Istituto di Scienza e Tecnologie dell'Informazione (ISTI) "A. Faedo" of the Consiglio Nazionale delle Ricerche (CNR) in Pisa. The collaboration continued also during his PhD course at the PhD school of Computer Science of the University of Pisa. In 2016 he submitted his PhD thesis titled "Improving Efficiency and Effectiveness of Document Understanding in Web Search". Currently he is a research fellow at ISTI-CNR.
-  image: /assets/images/docenti/DSC01514.jpg
 - name: Roberto Trasarti
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR

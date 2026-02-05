@@ -34,9 +34,6 @@ layout: default-full
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">{{ display_name }}</h5>
                     {% if page.data_type != 'studenti' %}
-                        {% if person.role %}
-                        <p class="card-text"><small class="text-muted">{{ person.role }}</small></p>
-                        {% endif %}
                         {% if person.institution %}
                         <p class="card-text"><strong>{{ person.institution }}</strong></p>
                         {% endif %}

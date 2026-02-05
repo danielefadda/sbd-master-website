@@ -1,251 +1,76 @@
-# _data/docenti/docenti_25_26.yml
-# Elenco completo docenti Master Big Data 2025-2026
-
-# --- CONSIGLIO DIRETTIVO ---
-- name: "Dino Pedreschi"
-  role: "Direttore del Master"
-  institution: "Università di Pisa"
-  bio: "Pioniere del mobility data mining e social network mining. Coordina il KDD Lab."
-  image: "/assets/images/docenti/pedreschi.png"
-
-- name: "Anna Monreale"
-  role: "Vice-Direttrice"
-  institution: "Università di Pisa"
-  bio: "Esperta di Explainable AI e Privacy-by-design. Ricercatrice del KDD Lab."
-  image: "/assets/images/docenti/Monreale.jpeg"
-
-- name: "Fosca Giannotti"
-  role: "Consiglio Direttivo"
-  institution: "Scuola Normale Superiore"
-  bio: "Scenziata di fama internazionale nel campo del data mining e dell'IA etica."
-  image: "/assets/images/docenti/fosca-giannotti.jpg"
-
-- name: "Salvatore Ruggieri"
-  role: "Consiglio Direttivo"
-  institution: "Università di Pisa"
-  bio: "Esperto di algoritmi di machine learning e social mining."
-  image: "/assets/images/docenti/salvatore-ruggieri.jpg"
-
-- name: "Paolo Ferragina"
-  role: "Consiglio Direttivo"
-  institution: "Università di Pisa"
-  bio: "Specialista in algoritmi per Big Data e motori di ricerca."
-  image: "/assets/images/docenti/paolo-ferragina.jpg"
-
-- name: "Giuseppe Prencipe"
-  role: "Consiglio Direttivo"
-  institution: "Università di Pisa"
-  bio: "Professore esperto di sistemi distribuiti e computazione mobile."
-  image: "/assets/images/docenti/giuseppe-prencipe.jpg"
-
-- name: "Mirco Nanni"
-  role: "Consiglio Direttivo"
-  institution: "ISTI-CNR"
-  bio: "Ricercatore senior focalizzato sull'analisi dei dati di mobilità."
-  image: "/assets/images/docenti/mirco-nanni.jpg"
-
-- name: "Salvatore Rinzivillo"
-  role: "Consiglio Direttivo"
-  institution: "ISTI-CNR"
-  bio: "Esperto di Visual Analytics e rappresentazione di dati complessi."
-  image: "/assets/images/docenti/salvatore-rinzivillo.jpg"
-
-- name: "Franco Maria Nardini"
-  role: "Consiglio Direttivo"
-  institution: "ISTI-CNR"
-  bio: "Ricercatore in Information Retrieval e Web Mining."
-  image: "/assets/images/docenti/franco-maria-nardini.jpg"
-
-- name: "Tiziano Fagni"
-  role: "Consiglio Direttivo"
-  institution: "ISTI-CNR"
-  bio: "Esperto in scalabilità e tecnologie cloud per Big Data."
-  image: "/assets/images/docenti/tiziano-fagni.jpg"
-
-- name: "Salvatore Trani"
-  role: "Consiglio Direttivo"
-  institution: "ISTI-CNR"
-  bio: "Specializzato in ottimizzazione di algoritmi di ricerca."
-  image: "/assets/images/docenti/salvatore-trani.jpg"
-
-- name: "Andrea Passarella"
-  role: "Consiglio Direttivo"
-  institution: "IIT-CNR"
-  bio: "Ricercatore in reti mobili e social sensing."
-  image: "/assets/images/docenti/andrea-passarella.jpg"
-
-# --- DOCENTI E RICERCATORI ---
-- name: "Riccardo Guidotti"
-  role: "Docente"
-  institution: "Università di Pisa"
-  bio: "Esperto di interpretabilità dei modelli black-box e analisi di serie temporali."
-  image: "/assets/images/docenti/riccardo-guidotti.jpg"
-
-- name: "Giulio Rossetti"
-  role: "Docente"
-  institution: "ISTI-CNR"
-  bio: "Focalizzato su Complex Network Analysis e diffusione di informazioni."
-  image: "/assets/images/docenti/giulio-rossetti.jpg"
-
-- name: "Luca Pappalardo"
-  role: "Docente"
-  institution: "ISTI-CNR"
-  bio: "Analizza i pattern della mobilità umana e della data science applicata allo sport."
-  image: "/assets/images/docenti/luca-pappalardo.jpg"
-
-- name: "Roberto Trasarti"
-  role: "Docente"
-  institution: "ISTI-CNR"
-  bio: "Esperto in architetture di mobility data analytics."
-  image: "/assets/images/docenti/roberto-trasarti.jpg"
-
-- name: "Maurizio Tesconi"
-  role: "Docente"
-  institution: "IIT-CNR"
-  bio: "Specialista in Social Sensing e Visual Analytics."
-  image: "/assets/images/docenti/maurizio-tesconi.jpg"
-
-- name: "Marco Podda"
-  role: "Docente"
-  institution: "Università di Pisa"
-  bio: "Ricercatore in Deep Learning e modelli generativi per dati strutturati."
-  image: "/assets/images/docenti/marco-podda.jpg"
-
-- name: "Cosimo Rulli"
-  role: "Docente"
-  institution: "ISTI-CNR"
-  bio: "Esperto in compressione di reti neurali profonde."
-  image: "/assets/images/docenti/cosimo-rulli.jpg"
-
-- name: "Andrea Cossu"
-  role: "Docente"
-  institution: "Università di Pisa"
-  bio: "Si occupa di continual learning in ambienti dinamici."
-  image: "/assets/images/docenti/andrea-cossu.jpg"
-
-- name: "Riccardo Massidda"
-  role: "Docente"
-  institution: "Università di Pisa"
-  bio: "Focalizzato sull'intersezione tra Machine Learning e statistica causale."
-  image: "/assets/images/docenti/riccardo-massidda.jpg"
-
-- name: "Giulio Ferrigno"
-  role: "Docente"
-  institution: "Scuola Superiore Sant'Anna"
-  bio: "Ricercatore esperto in innovazione e management nell'era dell'AI."
-  image: "/assets/images/docenti/giulio-ferrigno.jpg"
-
-- name: "Fabio Carrara"
-  role: "Docente"
-  institution: "ISTI-CNR"
-  bio: "Ricercatore in Multimedia Information Retrieval e computer vision."
-  image: "/assets/images/docenti/fabio-carrara.jpg"
-
-- name: "Francesca Pratesi"
-  role: "Docente"
-  institution: "ISTI-CNR"
-  bio: "Specializzata in protezione della privacy e metodologie data-driven."
-  image: "/assets/images/docenti/francesca-pratesi.jpg"
-
-- name: "Michela Natilli"
-  role: "Docente"
-  institution: "Università di Pisa"
-  bio: "Esperta in gestione di database e analisi multimodale."
-  image: "/assets/images/docenti/michela-natilli.jpg"
-
-- name: "Laura Pollacci"
-  role: "Docente"
-  institution: "Università di Pisa"
-  bio: "Ricercatrice attiva nel campo della Social Data Science e Visualisation."
-  image: "/assets/images/docenti/laura-pollacci.jpg"
-
-- name: "Daniele Fadda"
-  role: "Docente"
-  institution: "Università di Pisa"
-  bio: "Si occupa di interazione uomo-macchina e data storytelling."
-  image: "/assets/images/docenti/daniele-fadda.jpg"
-  
-- name: "Alina Sirbu"
-  role: "Docente"
-  institution: "Università di Pisa"
-  bio: "Esperta in simulazioni e modelli computazionali per fenomeni sociali."
-  image: "/assets/images/docenti/alina-sirbu.jpg"
-
-- name: "Valerio Leone Sciabolazza"
-  role: "Docente"
-  institution: "Univ. Napoli Parthenope"
-  bio: "Esperto in econometria spaziale e analisi di reti economiche."
-  image: "/assets/images/docenti/valerio-sciabolazza.jpg"
-
-- name: "Elena Casprini"
-  role: "Docente"
-  institution: "Università di Siena"
-  bio: "Esperta di management dell'innovazione e modelli di business basati sui dati."
-  image: "/assets/images/docenti/elena-casprini.jpg"
-
-- name: "Monica Pratesi"
-  role: "Docente"
-  institution: "Università di Pisa"
-  bio: "Professoressa di statistica, esperta in campionamento e indicatori socio-economici."
-  image: "/assets/images/docenti/monica-pratesi.jpg"
-
-- name: "Fabrizio Lillo"
-  role: "Docente"
-  institution: "Università di Bologna / SNS"
-  bio: "Fisico esperto in finanza quantitativa e sistemi complessi."
-  image: "/assets/images/docenti/fabrizio-lillo.jpg"
-
-- name: "Andrea Zaccaria"
-  role: "Docente"
-  institution: "CNR"
-  bio: "Ricercatore in complessità economica e analisi dei dati di produzione."
-  image: "/assets/images/docenti/andrea-zaccaria.jpg"
-
-- name: "Gennaro Vessio"
-  role: "Docente"
-  institution: "Collaboratore"
-  bio: "Focalizzato su deep learning e pattern recognition."
-  image: "/assets/images/docenti/gennaro-vessio.jpg"
-
-# --- AREA LAW, ETHICS & SOCIETY ---
-- name: "Giovanni Comandé"
-  role: "Docente Area Law"
-  institution: "Scuola Superiore Sant'Anna"
-  bio: "Professore esperto in responsabilità civile e regolamentazione dell'AI."
-  image: "/assets/images/docenti/giovanni-comande.jpg"
-
-- name: "Denise Amram"
-  role: "Docente Area Law"
-  institution: "Scuola Superiore Sant'Anna"
-  bio: "Esperta in protezione dei dati e aspetti etico-giuridici della ricerca."
-  image: "/assets/images/docenti/denise-amram.jpg"
-
-- name: "Caterina Sganga"
-  role: "Docente Area Law"
-  institution: "Scuola Superiore Sant'Anna"
-  bio: "Esperta di proprietà intellettuale e copyright nel mondo digitale."
-  image: "/assets/images/docenti/caterina-sganga.jpg"
-
-- name: "Maria Gagliardi"
-  role: "Docente Area Law"
-  institution: "Scuola Superiore Sant'Anna"
-  bio: "Ricercatrice in diritto privato e nuove tecnologie."
-  image: "/assets/images/docenti/maria-gagliardi.jpg"
-
-- name: "Antonio Davola"
-  role: "Docente Area Law"
-  institution: "Scuola Superiore Sant'Anna"
-  bio: "Si occupa di tutela dei consumatori e mercati digitali."
-  image: "/assets/images/docenti/antonio-davola.jpg"
-
-- name: "Andrea Parziale"
-  role: "Docente Area Law"
-  institution: "Scuola Superiore Sant'Anna"
-  bio: "Focalizzato sulla regolamentazione della responsabilità algoritmica."
-  image: "/assets/images/docenti/andrea-parziale.jpg"
-
-- name: "Benedetta Guidi"
-  role: "Docente Area Law"
-  institution: "Scuola Superiore Sant'Anna"
-  bio: "Esperta in Forensic Science e data law."
-  image: "/assets/images/docenti/benedetta-guidi.jpg"
+# Docenti anno 2024-2025
+- name: Chiara Boldrini
+  role: ''
+  institution: Istituto di Informatica e Telematica, CNR
+  bio: Chiara Boldrini è Prima Ricercatrice presso l'IIT-CNR e responsabile del laboratorio di AI & Data Science dell'unità di ricerca Ubiquitous Internet. I suoi interessi di ricerca includono l'AI decentralizzata centrata sull'uomo, l'apprendimento causale nei sistemi pervasivi, i modelli comportamentali/cognitivi umani per l'analisi e la progettazione di reti sociali online/Metaverso.
+  image: /assets/images/docenti/boldrini.jpeg
+- name: Giovanni Comandè
+  role: ''
+  institution: Scuola Superiore Sant'Anna
+  bio: Giovanni Comandè (LLM Harvard Law School USA, Ph.D. Scuola Superiore Sant’Anna) è Professore Ordinario di Diritto Privato comparato alla Scuola Superiore Sant’Anna dove ha studiato anche quale allievo ordinario.
+  image: /assets/images/docenti/Giovanni-Comandè-300x300.jpg
+- name: Tiziano Fagni
+  role: Membro del Consiglio
+  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
+  bio: Tiziano Fagni è un ricercatore informatico che lavora presso l'ISTI,CNR con interessi di ricerca che coprono i settori del machine learning e del data mining, e principalmente focalizzati su problematiche di NLP applicate in contesti applicativi di text analytics. Sempre in ambito testuale, si interessa anche di problematiche di scalabilità degli algoritmi di machine learning su domini applicativi di tipo BIG DATA e ultimamente anche di tecnologie di deep learning.
+  image: /assets/images/docenti/tizy_profilo.jpg
+- name: Giulio Ferrigno
+  role: ''
+  institution: Scuola Superiore Sant'Anna
+  bio: Giulio Ferrigno è Ricercatore (RTD-B) presso la Scuola Superiore Sant'Anna di Pisa. Ha svolto diversi periodi di ricerca presso prestigiose università come l'Università di Cambridge, l'Università di Tilburg e l'Università di Umea. I suoi principali temi di ricerca riguardano big data, Industria 4.0 nel management d’impresa. I suoi lavori sono stati pubblicati su autorevoli riviste internazionali tra cui Small Business
+  image: /assets/images/docenti/ferrigno_giulio.jpeg
+- name: Riccardo Guidotti
+  role: Direttore
+  institution: Dipartimento d'Informatica, Università di Pisa
+  bio: 'Riccardo Guidotti è nato nel 1988 a Pitigliano (GR) Italia. Si è laureato con lode in Informatica nel 2013, presso l''Università di Pisa. La sua tesi di laurea si intitola "Mobility Ranking: Human Mobility Analysis using Ranking Measures". Ha iniziato il dottorato di ricerca in Computer Science presso la Scuola per Graduate Studies "Galileo Galilei", (Università di Pisa), nel novembre 2013. Attualmente è membro del Knowledge Discovery and Data Mining Laboratory.'
+  image: /assets/images/docenti/Guidotti1.jpg
+- name: Angelica Lo Duca
+  role: ''
+  institution: Istituto di Informatica e Telematica, CNR
+  bio: Angelica Lo Duca lavora come post-doc presso l’Istituto di Informatica e Telematica del CNR di Pisa. Ha conseguito la laurea magistrale in Ingegneria informatica nel 2007 e il dottorato di ricerca in Ingegneria dell’Informazione nel 2012, entrambi presso l’università di Pisa. Attualmente è membro del laboratorio WAFI (Web Applications for the Future Internet), nel gruppo di Data Visualization e Semantic Web. I suoi interessi di ricerca includono Semantic Web, Data Integration, Data Science e Data Security, applicati ai campi del turismo e dei Beni Culturali.
+  image: /assets/images/docenti/angelica.loduca.jpg
+- name: Anna Monreale
+  role: Membro del Consiglio
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: È Professore Associato presso il Dipartimento di Informatica dell'Università di Pisa e membro del Knowledge Discovery and Data Mining Laboratory (KDD-Lab), un centro di ricerca congiunto tra ISTI-CNR e Università di Pisa. I suoi temi di ricerca includono lo studio della big data analytics, delle social networks e dei problemi di privacy che possono sorgere durante l'analisi di dati personali e sensibili. Ha partecipato a diversi progetti di ricerca europei, tra cui il più recente PETRA, il cui tema principale è la mobilità in ambito "smart cities".
+  image: /assets/images/docenti/Monreale1.jpeg
+- name: Mirco Nanni
+  role: ''
+  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
+  bio: È ricercatore presso l'istituto ISTI del CNR, Pisa. Ha una laurea in Scienze dell'informazione (1996) ed un dottorato di ricerca in Informatica (2001) ottenuti presso l'università di Pisa. I suoi temi di ricerca includono il data mining in generale, metodi di clustering, mobility data analysis e le loro applicazioni. Ha partecipato a numerosi progetti nazionali ed internazionali, tra cui il più recente PETRA, progetto europeo incentrato sul tema della mobilità in ambito "smart cities". E' stato visiting researcher presso vari istituti internazionali, tra cui l'M.I.T.
+  image: /assets/images/docenti/nanni.png
+- name: Luca Pappalardo
+  role: ''
+  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
+  bio: 'Born in Salerno (Italy), I earned my PhD in Computer Science at University of Pisa with the thesis "Human Mobility, Social Networks and Economic Development: a Data Science perspective". In my research, I exploit the power of Big Data to study many aspects of human behavior: the patterns of human mobility, the structure and evolution of complex networks, the patterns of success in sports, and the usage of data-driven measures of human behavior to monitor and predict the economic development of countries, cities, and territories.'
+  image: /assets/images/docenti/Pappalardo1.jpg
+- name: Roberto Pellungrini
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Nato e cresciuto a Viareggio, Toscana, Roberto Pellungrini è dottorando in Informatica presso l’Università di Pisa. I suoi interessi principali di ricerca riguardano gli aspetti etici legati al mondo della Scienza dei Dati, in particolare le problematiche relative alla Privacy degli individui. Prima di vincere la borsa di Dottorato, ha conseguito la Laurea Magistrale in Informatica per l’Economia e L’Azienda, con tesi sulla Valutazione del Rischio di Privacy e della Qualità dei Dati di Mobilità Umana.
+  image: /assets/images/docenti/Pellungrini1.jpg
+- name: Roberto Pellungrini
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Born and raised in Viareggio, Tuscany, Roberto Pellungrini is a PhD student in Computer Science at the University of Pisa. His main research interests concern ethical aspects related to Data Science, in particular regarding Privacy issues. Before winning the PhD scholarship, he attained a Master Degree in Business Informatics with a thesis on Assessing Privacy Risk and Quality in Human Mobility Data.
+  image: /assets/images/docenti/Pellungrini1.jpg
+- name: Marco Podda
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Marco Podda è ricercatore (RTD-A) al Dipartimento di Informatica dell’Università di Pisa, dove è anche membro del Computational Intelligence & Machine Learning (CIML) group. Ha ottenuto il dottorato in Informatica presso l’Università di Pisa nel 2021. Si occupa di intelligenza artificiale, apprendimento automatico, reti neurali, deep learning e modelli generativi che operano su dati strutturati, come ad esempio sequenze e grafi. La sua ricerca viene applicata specialmente in ambito biomedico.
+  image: /assets/images/docenti/Podda.jpg
+- name: Giuseppe Prencipe
+  role: Membro del Consiglio
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Giuseppe Prencipe è attualmente Professore Associato presso il Dipartimento di Informatica dell'Università di Pisa. I suoi interessi di ricerca vertono su sistemi distribuiti, mobile e wearable computing; ha al suo attivo oltre 50 pubblicazioni scientifiche su riviste e atti di conferenza internazionali, e ha partecipato a numerosi progetti di ricerca nazionali e internazionali. Ha contribuito alla progettazione e allo sviluppo di soluzioni software dedicate ad ambienti distribuiti popolati da robot mobili, e ha sviluppato applicazioni mobili su piattaforme Android, Android Wear e iOS.
+  image: /assets/images/docenti/Foto.JPG
+- name: Salvatore Trani
+  role: Membro del Consiglio
+  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
+  bio: Salvatore Trani ha conseguito la laurea in Informatica presso l'Università di Pisa nel 2013. Intraprende successivamente un periodo di collaborazione con l'Istituto di Scienza e Tecnologie dell'Informazione (ISTI) "A. Faedo" del Consiglio Nazionale delle Ricerche (CNR) di Pisa. Collaborazione che prosegue anche durante i suoi studi presso la scuola di Dottorato di Informatica dell'Università di Pisa.
+  image: /assets/images/docenti/DSC01514_0.jpg
+- name: Vincenzo Lomonaco
+  role: ''
+  institution: Dipartimento d'Informatica, Università di Pisa
+  bio: ''
+  image: /assets/images/docenti/placeholder.jpg

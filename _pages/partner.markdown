@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-full
 title: "Partner"
 permalink: /partner/
 partner: false
@@ -9,12 +9,15 @@ header_img: assets/images/header.svg
 header_title: " "
 
 ---
-
-# I nostri Partner
-
-Il Master in Big Data Analytics & AI for Society collabora con numerose aziende e istituzioni di rilievo nel settore dei dati e dell'intelligenza artificiale. I nostri partner contribuiscono attivamente al successo del programma, offrendo opportunità di tirocinio, progetti reali e supporto nella formazione dei nostri studenti.
-
-Un numero significativo di studenti ha trovato impiego presso queste aziende partner, dimostrando l'efficacia del nostro approccio formativo e la qualità delle collaborazioni instaurate.
+<section class="mb-5">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <h1 class="">I nostri Partner</h1>
+      <p>Il Master in Big Data Analytics & AI for Society collabora con numerose aziende e istituzioni di rilievo nel settore dei dati e dell'intelligenza artificiale. I nostri partner contribuiscono attivamente al successo del programma, offrendo opportunità di tirocinio, progetti reali e supporto nella formazione dei nostri studenti.</p>
+      <p>Un numero significativo di studenti ha trovato impiego presso queste aziende partner, dimostrando l'efficacia del nostro approccio formativo e la qualità delle collaborazioni instaurate.</p>
+    </div>
+</div>
+</section>
 
 {% if site.data.partners.partners %}
 

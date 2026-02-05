@@ -93,3 +93,236 @@
   description: "What's the best carbonara in Rome?"
   path: "https://andrevitali.github.io/g8-2024-website/"
   students: ["Luca Antonini", "Francesco Peria", "Ludovica Santinelli", "Maria Paola Sforza Fogliani", "Andrea Vitali"]
+
+- name: "Indo' Tu Vai?"
+  group: 1
+  year: 2023
+  img_url: "/assets/images/progetti/Indo_tu_vai_.png"
+  description: "L'app per il turismo accessibile"
+  path: "https://masterbigdata.it/sites/default/files/projects/2022-2023/indotuvai/"
+  students: ["Valentina Formica", "Francesco Spampani", "Lorenzo Tumminello"]
+
+- name: "Changes in latitudes and attitudes"
+  group: 1
+  year: 2022
+  img_url: "/assets/images/progetti/toruism_master_projects_thumbnail.jpg"
+  description: "Il nuovo turismo alberghiero post Covid-19"
+  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/tourism/"
+  students: ["Luca Fusar Imperatore", "Belinda K. Graux Bonilla", "Leonardo Catalano", "Maria Iacono", "Giovanni Pievani Trapletti"]
+
+- name: "Nove discere"
+  group: 2
+  year: 2022
+  img_url: "/assets/images/progetti/learning_master_projects_thumbnail.jpg"
+  description: "L'innovazione delle piattaforme di e-learning"
+  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/learning/"
+  students: ["Francesco Cappellini", "Luca Gestri", "Giuseppe Incarbone", "Michele Joshua Maggini", "Riccardo Regnicoli"]
+
+- name: "Stocks are going viral"
+  group: 3
+  year: 2022
+  img_url: "/assets/images/progetti/Istantanea_16_01_23__11_39.png"
+  description: "social media influence the financial market"
+  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/stock/"
+  students: ["Alessandro Ciocchetti", "Gwydyon Marchelli", "Lorena Volpini","Olga Cozzolino","Davide Bottinelli"]
+
+- name: "Taste your wine"
+  group: 4
+  year: 2022
+  img_url: "/assets/images/progetti/master_projects_thumbnail.jpg"
+  description: "Wine E-commerce Analysis"
+  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/wine/"
+  students: ["Ayoub el Maataoui", "Gabriele Ottaviani", "Francesco Demo","Riccardo Pizzuti","Stefano de Cet"]
+
+- name: "Twittatori contro la paura"
+  group: 5
+  year: 2022
+  img_url: "/assets/images/progetti/war_master_projects_thumbnail.jpg"
+  description: "Parole in guerra: emozioni a confronto fra giornali e twitter sul conflitto più social di tutti i tempi"
+  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/war/"
+  students: ["Agnese Fazio", "Clara Banti", "Gino Fabbrucci", "Roberta Fischetti","Jorge Shortede"]
+
+- name: "Web of hate"
+  group: 6
+  year: 2022
+  img_url: "/assets/images/progetti/hate_master_projects_thumbnail.jpg"
+  description: "Hai sentito di quel tizio che è caduto da un grattacielo? Mentre scendeva, passando da un piano all'altro, continuava a ripetere per rassicurarsi: Fin qui tutto bene..."
+  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/hate/#home"
+  students: ["Luca Maddalena","Davide Cortazzo", "Giulia Luongo", "Francesca Giorgi", "Claudio Giovannoni"]
+
+- name: "Comizi D'Amore 2.0"
+  group: 1
+  year: 2021
+  img_url: "/assets/images/progetti/Comizi_d_amore.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/comizi_amore/"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Disagio A Distanza"
+  group: 2
+  year: 2021
+  img_url: "/assets/images/progetti/Disagio_A_Distanza__ma_non_solo.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/dad"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Distretti Tecnologici 4.0"
+  group: 3
+  year: 2021
+  img_url: "/assets/images/progetti/Distretti_Tecnologici_4_0.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/distretti_tecnologici/"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Everybody's Changing"
+  group: 4
+  year: 2021
+  img_url: "/assets/images/progetti/Everybody_s_Changing.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/musica"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Pocket Trip"
+  group: 5
+  year: 2021
+  img_url: "/assets/images/progetti/Pocket_Trip.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/PocketTrip/"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Sotto una Coltre di Fumo"
+  group: 6
+  year: 2021
+  img_url: "/assets/images/progetti/https___masterbigdata_it_sites_default_files_projects_2020-2021_incendi_.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/incendi"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Covid Panic Buying"
+  group: 1
+  year: 2020
+  img_url: "/assets/images/progetti/Covid_Panic-Buying.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2019-2020/panicBuying/"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Il lockdown degli italiani"
+  group: 2
+  year: 2020
+  img_url: "/assets/images/progetti/Progetto_Master.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2019-2020/didattica/"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "L'Italia Nascosta"
+  group: 3
+  year: 2020
+  img_url: "/assets/images/progetti/L_Italia_nascosta.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2019-2020/turismo/"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "La Costante della Disney"
+  group: 4
+  year: 2020
+  img_url: "/assets/images/progetti/La_costante_della_Disney.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2019-2020/disney/"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Le parole danno i numeri"
+  group: 5
+  year: 2020
+  img_url: "/assets/images/progetti/Master_BigData_Project.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2019-2020/sentiment_covid/"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Non solo quartieri"
+  group: 6
+  year: 2020
+  img_url: "/assets/images/progetti/Quartieri_Milano.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2019-2020/quartieri_milano/"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Cinema & Machine Learning"
+  group: 1
+  year: 2019
+  img_url: "/assets/images/progetti/oscar.jpg"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2018-2019/oscar/index.html"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Dal Web al carrello"
+  group: 2
+  year: 2019
+  img_url: "/assets/images/progetti/web_carrello.jpg"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2018-2019/coop/index.html#slideCorrelationDiv"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Fare ricerca oggi"
+  group: 3
+  year: 2019
+  img_url: "/assets/images/progetti/Fare_ricerca_oggi.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2018-2019/ricerca/"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "JOB OFFER MARKET"
+  group: 4
+  year: 2019
+  img_url: "/assets/images/progetti/job.jpg"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2018-2019/job/index.html"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Tecnofili o tecnofobi?"
+  group: 5
+  year: 2019
+  img_url: "/assets/images/progetti/tecnofili_tecnofobi.jpg"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2018-2019/patents/index.html"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Viaggio nell'influencer marketing"
+  group: 6
+  year: 2019
+  img_url: "/assets/images/progetti/influencer.jpg"
+  description: "Lorem ipsum dolor sit amet"
+  path: "https://masterbigdata.it/project-files/2018-2019/influencer/index.html"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Kitesurf"
+  group: 1
+  year: 2017
+  img_url: "/assets/images/progetti/Kite-Surf.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "http://masterbigdata.it/project-files/2016-2017/kite/kite.html"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Birra 'mbriaha"
+  group: 2
+  year: 2016
+  img_url: "/assets/images/progetti/Birre.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "http://masterbigdata.it/project-files/2015-2016/birra-mbriaha/index.html"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "BlaBlaCar"
+  group: 3
+  year: 2016
+  img_url: "/assets/images/progetti/Blablacar.png"
+  description: "Lorem ipsum dolor sit amet"
+  path: "http://masterbigdata.it/project-files/2015-2016/blablacar/SitoBlaBlaCar.html"
+  students: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]
+
+- name: "Serie tv, Politica e Big Data"
+  group: 1
+  year: 2015
+  img_url: "/assets/images/progetti/serie-politica.png"
+  description: "Un'indagine sull'orientamento politico attraverso i dati Twitter"
+  path: "http://masterbigdata.it/project-files/2015-2016/serietv/serietv.html"
+  students: ["Leonardo Nizzoli","Amelia Morricone","Roberto Maria Sorrentino"]
+

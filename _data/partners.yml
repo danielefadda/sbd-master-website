@@ -163,7 +163,7 @@ partners:
 - name: Freeda Media
   logo: assets/images/partner/LOGO_FREEDA_SFONDO_TRASPARENTE_JPG.jpg
   type: service
-  active: true
+  active: false
   url: http://www.freedamedia.com/
   visible: true
   level: silver
