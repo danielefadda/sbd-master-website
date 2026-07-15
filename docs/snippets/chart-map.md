@@ -1,0 +1,1 @@
+<vegachart schema-url="{{ '/assets/charts/stragi_all.json' | relative_url }}" style="width: 100%"></vegachart>
