@@ -77,3 +77,53 @@
   answer_ai: "Sì, il master è erogato interamente online tramite Microsoft Teams."
   question: "Le lezioni sono frequentabili online?"
   topic: "Generali"
+
+- answer: "Possono iscriversi come uditori anche persone che non possiedono il titolo di studio richiesto per l'ammissione al Master. Sono disponibili 10 posti. L'uditore può frequentare uno o più moduli tra quelli indicati come accessibili agli uditori."
+  answer_ai: ""
+  question: "Chi può iscriversi come uditore?"
+  topic: "Uditori"
+
+- answer: "La procedura di ammissione degli uditori è gestita direttamente dal Dipartimento di Informatica, tramite un modulo dedicato. Per ricevere la documentazione è possibile scrivere alla Segreteria Didattica del Master: masterbigdata@unipi.it."
+  answer_ai: ""
+  question: "Come si presenta la domanda di iscrizione come uditore?"
+  topic: "Uditori"
+
+- answer: "L'iscrizione è consentita, nel limite dei posti disponibili, anche dopo l'inizio delle attività formative e fino al 31 dicembre 2026."
+  answer_ai: ""
+  question: "Fino a quando è possibile iscriversi come uditore?"
+  topic: "Uditori"
+
+- answer: "La contribuzione è di 2.400 euro per la frequenza di tutti i moduli, oppure di 100 euro per CFU per i singoli moduli (ad esempio, 300 euro per un modulo da 3 CFU). In entrambi i casi l'importo non è rateizzabile. Per informazioni sui costi e sulle modalità di frequenza dei singoli moduli è possibile contattare la Segreteria Didattica del Master."
+  answer_ai: ""
+  question: "Qual è il costo dell'iscrizione come uditore?"
+  topic: "Uditori"
+
+- answer: "No, gli uditori sono esclusi dalle agevolazioni basate sull'ISEE."
+  answer_ai: ""
+  question: "Gli uditori possono accedere alle agevolazioni basate sull'ISEE?"
+  topic: "Uditori"
+
+- answer: "Il pagamento, sia da parte dell'uditore sia da parte di un'azienda privata, va effettuato tramite pagoPA al seguente link: https://unipi.pagoatenei.cineca.it/frontoffice/modellopagamento?id=358&lang=it. Nella causale vanno indicati il codice del master (da richiedere all'indirizzo masterbigdata@unipi.it) e il nominativo dell'uditore."
+  answer_ai: ""
+  question: "Come si effettua il pagamento della quota da uditore?"
+  topic: "Uditori"
+
+- answer: "L'uditore riceve un attestato di frequenza firmato dal Direttore del Master. Per i moduli che lo prevedono, il superamento di un'apposita verifica consente di ottenere anche un Open Badge, rilasciato secondo le linee guida di Ateneo. La frequenza come uditore non consente invece di conseguire CFU né il titolo di Master."
+  answer_ai: ""
+  question: "Cosa si ottiene al termine della frequenza come uditore?"
+  topic: "Uditori"
+
+- answer: "L'uditore può sostenere, se lo desidera, la verifica prevista al termine dei moduli frequentati. Il superamento della verifica consente di richiedere l'Open Badge per i moduli che lo prevedono, ma non dà diritto a CFU. Non è invece possibile svolgere il tirocinio."
+  answer_ai: ""
+  question: "L'uditore può sostenere gli esami o svolgere il tirocinio?"
+  topic: "Uditori"
+
+- answer: "Nella stessa edizione non è possibile passare da uditore ad allievo ordinario. È invece possibile, su richiesta, passare da allievo ordinario a uditore. In questo caso non si ha diritto al rimborso degli importi già versati oltre la contribuzione prevista per gli uditori."
+  answer_ai: ""
+  question: "È possibile passare da uditore ad allievo ordinario, o viceversa?"
+  topic: "Uditori"
+
+- answer: "No, il corso SAS non fa parte del percorso del Master. Al termine delle lezioni il Master può attivare un corso SAS solo se ci sono le condizioni necessarie, tra cui la disponibilità di SAS e un numero sufficiente di studenti interessati. L'attivazione non è garantita e non può essere considerata parte dell'offerta formativa del Master."
+  answer_ai: ""
+  question: "Il Master prevede un corso o una certificazione SAS?"
+  topic: "Uditori"
