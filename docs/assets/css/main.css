@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;700&family=Oswald:wght@200;300;400;700&display=swap");
 @font-face {
   font-family: chulapa;
-  src: url("https://cdn.jsdelivr.net/gh/dieghernan/chulapa@master/assets/fonts/Chulapa/Chulapa-Bold_vmod.otf");
+  src: url("../../assets/fonts/Chulapa/Chulapa-Bold_vmod.otf");
   font-display: fallback; }
 /*! Tophat `Graymor` Bootstrap 4.3.1 theme */
 .card.bg-primary, .chulapa-masonry .bg-primary.chulapa-masonry-brick {
@@ -8630,7 +8630,7 @@ img.rounded-pill {
   background-color: transparent;
   color: #fff; }
 
-.navbar-chulapa-fab label {
+.navbar-chulapa-fab button {
   line-height: unset; }
 .navbar-chulapa-fab .navbar-toggler {
   background-color: #07286E;
@@ -8656,6 +8656,8 @@ img.rounded-pill {
   z-index: 15000;
   opacity: 0;
   width: 0;
+  visibility: hidden;
+  overflow-y: auto;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 .navbar-chulapa-fab .navbar-nav {
   position: absolute;
@@ -8707,12 +8709,13 @@ img.rounded-pill {
   .navbar-chulapa-fab .navbar-chulapa-fab-background {
     top: 1.5rem;
     right: 6rem; } }
-.navbar-chulapa-fab-button:checked ~ .navbar-chulapa-fab-background {
+.navbar-chulapa-fab-button[aria-expanded="true"] ~ .navbar-chulapa-fab-background {
   transform: scale(80); }
-.navbar-chulapa-fab-button:checked ~ .navbar-chulapa-fab-nav {
+.navbar-chulapa-fab-button[aria-expanded="true"] ~ .navbar-chulapa-fab-nav {
   opacity: 1;
-  width: 100%; }
-  .navbar-chulapa-fab-button:checked ~ .navbar-chulapa-fab-nav .navbar-nav {
+  width: 100%;
+  visibility: visible; }
+  .navbar-chulapa-fab-button[aria-expanded="true"] ~ .navbar-chulapa-fab-nav .navbar-nav {
     transform: translate(100vw, -50%); }
 .navbar-chulapa-fab .navbar-toggler-icon {
   position: relative; }
@@ -8730,12 +8733,12 @@ img.rounded-pill {
     top: -0.6rem; }
   .navbar-chulapa-fab .navbar-toggler-icon::after {
     top: 0.6rem; }
-.navbar-chulapa-fab-button:checked + .navbar-toggler .navbar-toggler-icon {
+.navbar-chulapa-fab-button[aria-expanded="true"] .navbar-toggler-icon {
   background-color: transparent; }
-.navbar-chulapa-fab-button:checked + .navbar-toggler .navbar-toggler-icon::before {
+.navbar-chulapa-fab-button[aria-expanded="true"] .navbar-toggler-icon::before {
   top: 0;
   transform: rotate(135deg); }
-.navbar-chulapa-fab-button:checked + .navbar-toggler .navbar-toggler-icon::after {
+.navbar-chulapa-fab-button[aria-expanded="true"] .navbar-toggler-icon::after {
   top: 0;
   transform: rotate(-135deg); }
 
@@ -8827,11 +8830,17 @@ h6 .chulapa-header-link {
     -o-transform: scale(1, 1);
     transform: scale(1, 1); }
 h1:hover .chulapa-header-link,
+h1 .chulapa-header-link:focus,
 h2:hover .chulapa-header-link,
+h2 .chulapa-header-link:focus,
 h3:hover .chulapa-header-link,
+h3 .chulapa-header-link:focus,
 h4:hover .chulapa-header-link,
+h4 .chulapa-header-link:focus,
 h5:hover .chulapa-header-link,
-h6:hover .chulapa-header-link {
+h5 .chulapa-header-link:focus,
+h6:hover .chulapa-header-link,
+h6 .chulapa-header-link:focus {
   opacity: 1; }
 
 .btn-chulapa-copy-code {
@@ -8905,7 +8914,6 @@ h6:hover .chulapa-header-link {
   .chulapa-btn-nofocus.close:before {
     content: "" !important; }
 .chulapa-btn-nofocus:focus {
-  outline: 0;
   text-shadow: none; }
 
 .bs-canvas-overlay {
@@ -9084,3 +9092,35 @@ h6:hover .chulapa-header-link {
 
 #disqus_recommendations {
   width: 100%; }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid currentColor !important;
+  outline-offset: 3px; }
+
+.chulapa-skip-link {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 21000;
+  padding: 1rem;
+  color: #07286E;
+  background: #fff; }
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar-chulapa-fab *,
+  .navbar-chulapa-fab *::before,
+  .navbar-chulapa-fab *::after,
+  .bs-canvas-anim,
+  .chulapa-header-link,
+  .fa, .far, .fas, .fab, .fa-solid, .fa-regular, .fa-brands {
+    transition: none !important;
+    animation: none !important; } }
+.e-content p a:not(.btn):not(.nav-link):not(.chulapa-header-link),
+.e-content li:not(.list-group-item):not(.nav-item) > a:not(.btn):not(.nav-link) {
+  text-decoration: underline;
+  text-underline-offset: 0.15em; }
