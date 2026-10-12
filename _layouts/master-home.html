@@ -66,9 +66,8 @@ layout: default-full
                         di base in programmazione e analisi dati necessarie per affrontare con successo il percorso. </p>
                 </div>
                 <!-- Event section -->
-                {% assign event_deadline = "2026-10-14" | date: "%s" | plus: 0 %}
-                {% assign current_date = site.time | date: "%s" | plus: 0 %}
-                {% if current_date < event_deadline %}
+                {% include openday-upcoming.html %}
+                {% if openday_upcoming.size > 0 %}
                     {% include openday.html %}
                 {% endif %}
                 <!-- Info Alert Section -->

@@ -1,0 +1,5 @@
+{% comment %}
+  Imposta `openday_upcoming`: gli Open Day di site.openday.events con data >= data della build, in ordine cronologico.
+{% endcomment %}
+{% assign openday_today = site.time | date: "%Y-%m-%d" %}
+{% assign openday_upcoming = site.openday.events | where_exp: "e", "e.date >= openday_today" | sort: "date" %}

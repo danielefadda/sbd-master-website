@@ -3,23 +3,15 @@
         <div class="row">
             <div class="col-md-4" >
                 <h3 class="font-weight-bold">Evento</h3>
+                {% for e in openday_upcoming %}
                 <div class="mb-4">
-                    <h5 class="font-weight-bold">14 luglio</h5> (16:00 - 17:00)
-                    <p><a href="https://teams.microsoft.com/meet/317456101187289?p=l8IEdoOqZwdnRC18CL" target="_blank">Link al meeting</a>  </p>
+                    <h5 class="font-weight-bold">{% include data-it.html date=e.date %}</h5> ({{ e.time }})
+                    <p><a href="{{ e.link }}" target="_blank">Link al meeting</a>  </p>
                 </div>
-
-                <div class="mb-4">
-                    <h5 class="font-weight-bold">22 settembre</h5> (16:00 - 17:00)
-                    <p><a href="https://teams.microsoft.com/meet/32273784620675?p=nRXTyfl5G8psvSRucx" target="_blank">Link al meeting</a>  </p>
-                </div>
-
-                <div class="mb-4">
-                    <h5 class="font-weight-bold">13 ottobre</h5> (16:00 - 17:00)
-                    <p><a href="https://teams.microsoft.com/meet/322806022670622?p=GFgeKM9iWWANR8f5UB" target="_blank">Link al meeting</a>  </p>
-                </div>
+                {% endfor %}
             </div>
             <div class="col-md-8" style="border-left: 1px solid">
-                <h2>Online Open Day Master 2026/2027</h2>
+                <h2>{{ site.openday.title }}</h2>
   
                 <p>Unisciti a noi per il nostro prossimo Open Day virtuale. Un'occasione per conoscere da vicino l'offerta formativa e orientare la tua scelta accademica e professionale.</p>
                 

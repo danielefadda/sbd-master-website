@@ -1,0 +1,4 @@
+{% include openday-upcoming.html %}
+{% if openday_upcoming.size > 0 %}
+<a href="/index.html" class="btn btn-primary mr-2 mb-2">Partecipa {% if openday_upcoming.size == 1 %}all'Open Day{% else %}agli Open Day{% endif %} {% for e in openday_upcoming %}{% unless forloop.first %}{% if forloop.last %} e {% else %}, {% endif %}{% endunless %}il {% include data-it.html date=e.date %}{% endfor %}</a>
+{% endif %}

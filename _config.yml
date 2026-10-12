@@ -12,6 +12,22 @@ description: >-
 current_year: "25_26"
 info_edition: "26_27"
 
+# Open Day: unica fonte per home page e pulsanti "Partecipa agli Open Day".
+# Vengono mostrati solo gli eventi non ancora passati (alla data della build);
+# la sezione sparisce dopo l'ultimo evento. Date tra virgolette, formato "AAAA-MM-GG".
+openday:
+  title: "Online Open Day Master 2026/2027"
+  events:
+    - date: "2026-07-14"
+      time: "16:00 - 17:00"
+      link: "https://teams.microsoft.com/meet/317456101187289?p=l8IEdoOqZwdnRC18CL"
+    - date: "2026-09-22"
+      time: "16:00 - 17:00"
+      link: "https://teams.microsoft.com/meet/32273784620675?p=nRXTyfl5G8psvSRucx"
+    - date: "2026-10-13"
+      time: "16:00 - 17:00"
+      link: "https://teams.microsoft.com/meet/322806022670622?p=GFgeKM9iWWANR8f5UB"
+
 markdown: kramdown
 
 # Tema Remoto (Cruciale per scaricare Chulapa)
