@@ -25,6 +25,25 @@ function loadSidebarFromStaticJson() {
     .catch(error => console.error('Errore nel caricamento sidebar:', error));
 }
 
+
+// Gestione scadenza iscrizione con ORARIO (oltre che data)
+function getStatoIscrizioni(iscrizioni) {
+  const now = Date.now();
+
+  const startDate = new Date(`${iscrizioni.data}T00:00:00+02:00`).getTime();
+  const endDate = new Date(`${iscrizioni.data_fine}T13:00:00+02:00`).getTime();
+
+  if (now < startDate) {
+    return "prossime";
+  } else if (now >= endDate) {
+    return "chiuse";
+  } else {
+    return "aperte";
+  }
+}
+
+
+// Homepage sidebar
 function updateSidebar(data) {
   const sidebarContainer = document.getElementById('dynamic-sidebar');
   if (!sidebarContainer) return;
@@ -41,18 +60,30 @@ function updateSidebar(data) {
   const lezioni = data.scadenze.find(item => item.voce === "Lezioni");
   const tirocinio = data.scadenze.find(item => item.voce === "Tirocinio");
   
-  // Calcola lo stato delle iscrizioni
-  const now = new Date().getTime();
-  const startDate = new Date(iscrizioni.data).getTime();
-  const endDate = new Date(iscrizioni.data_fine).getTime();
-  
-  let statoIscrizioni;
-  if (now < startDate) {
-    statoIscrizioni = "🟡 Prossime";
-  } else if (now > endDate) {
-    statoIscrizioni = "🔴 CHIUSE";
-  } else {
-    statoIscrizioni = "🟢 APERTE";
+//  // Calcola lo stato delle iscrizioni
+//  const now = new Date().getTime();
+//  const startDate = new Date(iscrizioni.data).getTime();
+//  const endDate = new Date(iscrizioni.data_fine).getTime();
+//
+//  let statoIscrizioni;
+//  if (now < startDate) {
+//    statoIscrizioni = "🟡 Prossime";
+//  } else if (now > endDate) {
+//    statoIscrizioni = "🔴 CHIUSE";
+//  } else {
+//    statoIscrizioni = "🟢 APERTE";
+//  }
+
+    // Calcola lo stato delle iscrizioni
+    const stato = getStatoIscrizioni(iscrizioni);
+
+    let statoIscrizioni;
+    if (stato === "prossime") {
+      statoIscrizioni = "🟡 Prossime";
+    } else if (stato === "chiuse") {
+      statoIscrizioni = "🔴 CHIUSE";
+    } else {
+      statoIscrizioni = "🟢 APERTE";
   }
 
   let html = `<h4 class="h5 font-weight-bold mb-4">${data.sidebar.title}</h4>`;

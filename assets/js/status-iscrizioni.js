@@ -64,33 +64,78 @@ function getStatoScadenza(startDate, endDate) {
   }
 }
 
+
+
+// Gestione scadenza iscrizione con ORARIO (oltre che data)
+function getStatoIscrizioni(iscrizioni) {
+  const now = Date.now();
+
+  const startDate = new Date(`${iscrizioni.data}T00:00:00+02:00`).getTime();
+  const endDate = new Date(`${iscrizioni.data_fine}T13:00:00+02:00`).getTime();
+
+  if (now < startDate) {
+    return "prossime";
+  } else if (now >= endDate) {
+    return "chiuse";
+  } else {
+    return "aperte";
+  }
+}
+
+// Modifica per gestione orario scadenze
+
+
+//function updateStatusIscrizioni() {
+//  if (!masterData) {
+//    console.warn('Dati non ancora caricati per updateStatusIscrizioni');
+//    return;
+//  }
+//
+//  const now = new Date().getTime();
+//  //const now = new Date('2026-11-31').getTime();
+//  const iscrizioni = masterData.scadenze[0];
+//  const startDate = new Date(iscrizioni.data).getTime();
+//  const endDate = new Date(iscrizioni.data_fine).getTime();
+//  const edizione = masterData.edizione;
+//
+//  let stato, emoji, messaggio;
+//
+//  if (now < startDate) {
+//    stato = "attive";
+//    emoji = "🟡";
+//    messaggio = `Le iscrizioni saranno aperte il ${iscrizioni.data_label}`;
+//  } else if (now > endDate) {
+//    stato = "chiuse";
+//    emoji = "🔴";
+//    messaggio = "Le iscrizioni sono concluse";
+//  } else {
+//    stato = "aperte";
+//    emoji = "🟢";
+//    messaggio = `Le iscrizioni sono aperte fino al ${iscrizioni.data_fine_label}`;
+//  }
+//  continua funzione sotto da // Aggiorna lo stato sulla pagina
+
 function updateStatusIscrizioni() {
   if (!masterData) {
     console.warn('Dati non ancora caricati per updateStatusIscrizioni');
     return;
   }
 
-  const now = new Date().getTime();
-  //const now = new Date('2026-11-31').getTime();
   const iscrizioni = masterData.scadenze[0];
-  const startDate = new Date(iscrizioni.data).getTime();
-  const endDate = new Date(iscrizioni.data_fine).getTime();
   const edizione = masterData.edizione;
+  const stato = getStatoIscrizioni(iscrizioni);
 
-  let stato, emoji, messaggio;
+  let emoji, messaggio;
 
-  if (now < startDate) {
-    stato = "attive";
+  if (stato === "prossime") {
     emoji = "🟡";
     messaggio = `Le iscrizioni saranno aperte il ${iscrizioni.data_label}`;
-  } else if (now > endDate) {
-    stato = "chiuse";
+  } else if (stato === "chiuse") {
     emoji = "🔴";
     messaggio = "Le iscrizioni sono concluse";
   } else {
-    stato = "aperte";
     emoji = "🟢";
-    messaggio = `Le iscrizioni sono aperte fino al ${iscrizioni.data_fine_label}`;
+    messaggio = `Le iscrizioni sono aperte fino alle ore 13:00 del ${iscrizioni.data_fine_label}`;
   }
 
   // Aggiorna lo stato sulla pagina
